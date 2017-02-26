@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='app'>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./reset.css" rel="stylesheet">
+    <link href="./styles/index.css" rel="stylesheet">
+    <link href="./styles/home.css" rel="stylesheet">
+    <link href="./styles/aboutUs.css" rel="stylesheet">
+    <link href="./styles/eventsMedia.css" rel="stylesheet">
+    <link href="./styles/joinTheFight.css" rel="stylesheet">
+    <link href="./styles/ourStories.css" rel="stylesheet">
+    <link href="./styles/partnerships.css" rel="stylesheet">
+    <link href="./styles/technology.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+</head>
+
+<body ng-controller='mainCtrl'>
+    <header>
+        <nav class='topNavBar'>
+            <ul class='firstList'>
+                <li class='topNavWords'>Volunteer Login</li>
+                <li class='topNavWords'>Donor Login</li>
+                <li class='topNavWords'>Blog</li>
+                <li class='topNavWords'>Get Updates</li>
+                <li class='topNavWords'>Store</li>
+            </ul>
+            <ul class='topNavIcons'>
+                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li><i class="fa fa-pinterest-p" aria-hidden="true"></i></li>
+                <li><i class="fa fa-microphone" aria-hidden="true"></i></li>
+            </ul>
+            <div class='redDonate'>
+                <p>Donate</p>
+            </div>
+        </nav>
+    </header>
+    <ui-view></ui-view>
+    <footer>
+        <div class='topFooterBox'>
+            <div class='subscribeBox'>
+                <p>SUBSCRIBE FOR UPDATES ABOUT MISSIONS AND WAYS TO HELP</p>
+                <input class='inputBox' type='text' placeholder="email address"><button class='subscribeButton'>SUBSCRIBE</button>
+            </div>
+            <div class='followUs'>
+                <p>FOLLOW US</p>
+                <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                <button><i class="fa fa-instagram" aria-hidden="true"></i></button>
+                <button><i class="fa fa-youtube-play" aria-hidden="true"></i></button>
+                <button><i class="fa fa-newspaper-o" aria-hidden="true"></i></button>
+                <button><i class="fa fa-pinterest-p" aria-hidden="true"></i></button>
+                <button><i class="fa fa-microphone" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <div class='bottomFooterBox'>
+            <div class='bottomTopWords'>
+                <ul>
+                    <p>ABOUT US</p>
+                    <li>O.U.R. Promise</li>
+                    <li>Process</li>
+                    <li>Team</li>
+                </ul>
+                <ul>
+                    <p>JOIN THE FIGHT</p>
+                    <li>Donate</li>
+                    <li>Volunteer</li>
+                    <li>Host an Event</li>
+                    <li>Attend an Event</li>
+                    <li>Shop</li>
+                    <li>Corporate Gift Matching</li>
+                    <li>Start a Campaign</li>
+                    <li>Get E-Alerts</li>
+                </ul>
+                <p>TECHNOLOGY</p>
+                <p>O.U.R. STORIES</p>
+                <ul>
+                    <p>PARTNERSHIPS</p>
+                    <li>Coordinated Rescue</li>
+                    <li>Recovery Planning</li>
+                    <li>Changing the Mindset</li>
+                    <li>Partnering Organizations</li>
+                </ul>
+                <ul>
+                    <p>EVENTS & MEDIA</p>
+                    <li>Events Calender</li>
+                    <li>Events Archive</li>
+                    <li>The Abolitionists</li>
+                    <li>O.U.R. Brochure</li>
+                </ul>
+                </ul>
+            </div>
+            <div class="bottomBottomWords">
+                <ul class='faqList'>
+                    <li class='fL'>FAQ</li>
+                    <li class='fL'>Privacy Policy</li>
+                    <li class='fL'>Contact Us</li>
+                </ul>
+                <ul class='copyrightList'>
+                    <li class='cL'>Operation Underground Railroad</li>
+                    <li class='cL'>700 N Valley St. Suite B Anaheim, CA 92801</li>
+                    <li class='cL'>EIN: 46-3614979</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/controllers/mainCtrl.js"></script>
+    <script src="./js/servers/mainSrv.js"></script>
+</body>
+
+</html>
