@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
 .videoContainer {
     width: 100%;
     height: 1100px;
@@ -11,12 +10,8 @@
 }
 
 .blackOverlay {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    );
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     position: relative;
-
 }
 
 .secondNavBar {
@@ -30,19 +25,18 @@
     align-items: center;
     position: relative;
 }
+
 .navMainLogo {
     background: url('https://wotcplanet.com/wp-content/uploads/2016/02/OUR_LOGO_MASTER-V_2_GO.png') no-repeat center;
     background-size: cover;
     width: 350px;
     height: 150px;
-  
 }
 
 .secondList {
     color: white;
     font-family: 'Montserrat';
     display: flex;
-
 }
 
 .secondList li {
@@ -53,7 +47,6 @@
     letter-spacing: 2px;
     padding-bottom: 5px;
     border-bottom: 5px solid transparent;
-  
 }
 
 .secondList li:hover {
@@ -78,7 +71,6 @@
     padding-top: 50px;
     text-align: center;
     letter-spacing: 2px;
-    
 }
 
 .videoWords button {
@@ -114,7 +106,7 @@
 }
 
 .whiteWords {
-    width: 100%; 
+    width: 100%;
     height: 166px;
     display: flex;
     flex-direction: column;
@@ -123,7 +115,7 @@
     /*padding-bottom: 150px;*/
 }
 
-.whiteWords h3{
+.whiteWords h3 {
     font-family: 'Montserrat';
     font-size: 34px;
     color: #222222;
@@ -131,7 +123,7 @@
     font-weight: bolder;
 }
 
-.whiteWords h2{
+.whiteWords h2 {
     font-family: 'Montserrat';
     font-size: 22px;
     color: #222222;
@@ -143,7 +135,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; 
+    width: 100%;
     height: 266px;
     /*padding-bottom: 200px;*/
 }
@@ -219,7 +211,6 @@
     height: 300px;
     text-align: center;
     padding-top: 100px;
-
 }
 
 .rescueWords p span {
@@ -231,4 +222,96 @@
     background-size: cover;
     width: 100%;
     height: 700px;
+}
+
+.yellowOperations {
+    width: 100%;
+    height: 870px;
+    background: #fac03c;
+}
+
+.yellowOperations p {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 50px;
+}
+
+.yellowOperations h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 30px;
+    line-height: 42px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.yellowOperations h1 {
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 16px;
+    /*padding-bottom: 20px;*/
+}
+
+.operationsList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstOpList {
+    padding-left: 30px;
+}
+
+.thirdOpList {
+    padding-right: 10px;
+}
+/*---------------------------*/
+
+.aroundTheWorld {
+    width: 100%;
+    height: 850px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slideshowTitle {
+    width: 97%;
+    height: 90px;
+    background-color: #1e1f21;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 26px;
+    line-height: 44px;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.slideshowBox {
+    width: 97%;
+    height: 500px;
+    background: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+
+/*---------------------------*/
+
+.newsBox {
+    display: flex;
+    margin-bottom: -70px;
+}
+
+.newsImages img {
+   height: 200px;
+   width: 250px;
+    background-size: cover;
 }

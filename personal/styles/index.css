@@ -147,7 +147,7 @@ li .fa {
 
 .bottomTopWords {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 50px;
     margin-right: 150px;
     padding-top: 40px;
@@ -155,6 +155,11 @@ li .fa {
     font-family: 'Montserrat';
 
 }
+
+/*.bottomTopWords ul {
+    width: 250px;
+    height: 400px;
+}*/
 
 .bottomTopWords p {
     color: white;
