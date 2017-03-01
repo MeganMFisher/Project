@@ -2,14 +2,45 @@
     <div class='videoOverlay'>
         <div class='blackOverlay'>
             <nav class='secondNavBar'>
-                <div class='navMainLogo'></div>
+                <a ui-sref='home' class='navMainLogo'></a>
                 <ul class='secondList'>
-                    <li>ABOUT US</li>
-                    <li>JOIN THE FIGHT</li>
-                    <li>TECHNOLOGY</li>
-                    <li>O.U.R STORIES</li>
-                    <li>PARTNERSHIPS</li>
-                    <li>EVENTS & MEDIA</li>
+                    <li class='dropdown'><a class='dropbtn' ui-sref='aboutus'>ABOUT US</a>
+                        <div class='dropdown-content'>
+                            <a>O.U.R. Promise</a>
+                            <a>Process</a>
+                            <a>Team</a>
+                        </div>
+                    </li>
+                    <li class='dropdown'><a class='dropbtn' ui-sref='jointhefight'>JOIN THE FIGHT</a>
+                        <div class='dropdown-content'>
+                            <a>Donate</a>
+                            <a>Volunteer</a>
+                            <a>Host an event</a>
+                            <a>Attend an event</a>
+                            <a>Shop</a>
+                            <a>Coorporate gift matching</a>
+                            <a>Start a campaign</a>
+                            <a>Get E-Alerts</a>
+                        </div>
+                    </li>
+                    <li class='dropdown'><a class='dropbtn' ui-sref='technology'>TECHNOLOGY</a></li>
+                    <li class='dropdown'><a class='dropbtn' ui-sref='ourstories'>O.U.R STORIES</a></li>
+                    <li class='dropdown'><a class='dropbtn' ui-sref='partnerships'>PARTNERSHIPS</a>
+                        <div class='dropdown-content'>
+                            <a href="#">Coordinated Rescue</a>
+                            <a href="#">Recovery Planning</a>
+                            <a href="#">Changing the mindset</a>
+                            <a href="#">Partnering Organizations</a>
+                        </div>
+                    </li>
+                    <li class='dropdown'><a class='dropbtn' ui-sref='eventsmedia'>EVENTS & MEDIA</a>
+                        <div class='dropdown-content'>
+                            <a href="#">Events Calender</a>
+                            <a href="#">Events Archive</a>
+                            <a href="#">The Abolitionists</a>
+                            <a href="#">O.U.R. Brochure</a>
+                        </div>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -47,62 +78,41 @@
 </section>
 <section class='yellowOperations'>
     <h3>2015 OPERATIONS</h3>
-<div class='operationsList'>
-    <div class='firstOpList'>
-        <p>Mundo Nuevo II : <br><span style='font-weight: lighter'>Puerto Plata, Dominican Republic</span> <br> 29 rescued, 7 arrested</p>
-
-        <p>Tiger Stripe : <span style='font-weight: lighter'>Goa, India</span> <br>3 rescued, 7 arrested</p>
-
-        <p>Red Saree : <span style='font-weight: lighter'>Goa, India</span> <br>1 rescued, 2 arrested</p>
-
-        <p>Taj Mahal : <span style='font-weight: lighter'>Mumbai, India</span> <br>3 rescued, 7 arrested</p>
-
-        <p>Net Nanny : <span style='font-weight: lighter'>Washington, USA</span> <br>9 rescued, 4 pending ongoing investigation</p>
-
-        <p>Operation Rhino Fist : <span style='font-weight: lighter'>Mumbai, India</span> <br>3 rescued, 3 arrested</p>
-
-        <p>Operation Net Nanny 2: <br> Felon-iz Navidad :  <span style='font-weight: lighter'>Washington, USA</span> <br>12 rescued, 2 arrested</p>
-
+    <div class='operationsList'>
+        <div class='firstOpList'>
+            <p>Mundo Nuevo II : <br><span style='font-weight: lighter'>Puerto Plata, Dominican Republic</span> <br> 29 rescued,
+                7 arrested</p>
+            <p>Tiger Stripe : <span style='font-weight: lighter'>Goa, India</span> <br>3 rescued, 7 arrested</p>
+            <p>Red Saree : <span style='font-weight: lighter'>Goa, India</span> <br>1 rescued, 2 arrested</p>
+            <p>Taj Mahal : <span style='font-weight: lighter'>Mumbai, India</span> <br>3 rescued, 7 arrested</p>
+            <p>Net Nanny : <span style='font-weight: lighter'>Washington, USA</span> <br>9 rescued, 4 pending ongoing investigation</p>
+            <p>Operation Rhino Fist : <span style='font-weight: lighter'>Mumbai, India</span> <br>3 rescued, 3 arrested</p>
+            <p>Operation Net Nanny 2: <br> Felon-iz Navidad : <span style='font-weight: lighter'>Washington, USA</span> <br>12
+                rescued, 2 arrested</p>
+        </div>
+        <div class='secondOplist'>
+            <p>Cobra Head : <span style='font-weight: lighter'>Klong Yai, Thailand</span> <br> 2 rescued, 2 arrested</p>
+            <p>Trap Door : <span style='font-weight: lighter'>Thane, India</span> <br>18 rescued, 12 arrested</p>
+            <p>Build momentum : <span style='font-weight: lighter'>Puerto Vallarta, Mexico</span> <br>0 rescued, 0 arrested</p>
+            <p>Spear Tip : <span style='font-weight: lighter'>Masindi, Uganda</span> <br>1 rescued, 1 arrested</p>
+            <p>Operation Black Peacock : <span style='font-weight: lighter'>Thane, India</span> <br>5 rescued, 27 arrested</p>
+            <p>Operation Black Veil : <span style='font-weight: lighter'>Mumbai, India</span> <br>4 rescued, 17arrested</p>
+        </div>
+        <div class='thirdOpList'>
+            <p>Open Doors : <span style='font-weight: lighter'>Acapulco, Mexico</span> <br> 2 rescued, 3 arrested</p>
+            <p>Find Gardy: <span style='font-weight: lighter'>Haiti</span> <br>Mission in progress</p>
+            <p>Presidential Order : <span style='font-weight: lighter'>Cartagena, Colombia</span> <br>0 rescued, 0 arrested</p>
+            <p>Stop the Music : <span style='font-weight: lighter'>California</span> <br>0 rescued, 0 arrested</p>
+            <p>Operation Mumbai Tunnels : <span style='font-weight: lighter'>Mumbai, India</span> <br>5 rescued, 21 arrested</p>
+            <p>Operation Snake Charmer : <span style='font-weight: lighter'>Thane, India</span> <br>3 rescued, 8arrested</p>
+        </div>
     </div>
-
-    <div class='secondOplist'>
-
-         <p>Cobra Head : <span style='font-weight: lighter'>Klong Yai, Thailand</span> <br> 2 rescued, 2 arrested</p>
-
-        <p>Trap Door : <span style='font-weight: lighter'>Thane, India</span> <br>18 rescued, 12 arrested</p>
-
-        <p>Build momentum :  <span style='font-weight: lighter'>Puerto Vallarta, Mexico</span> <br>0 rescued, 0 arrested</p>
-
-        <p>Spear Tip : <span style='font-weight: lighter'>Masindi, Uganda</span> <br>1 rescued, 1 arrested</p>
-
-        <p>Operation Black Peacock : <span style='font-weight: lighter'>Thane, India</span> <br>5 rescued, 27 arrested</p>
-
-        <p>Operation Black Veil : <span style='font-weight: lighter'>Mumbai, India</span> <br>4 rescued, 17arrested</p>
-
-    </div>
-
-    <div class='thirdOpList'>
-
-        <p>Open Doors : <span style='font-weight: lighter'>Acapulco, Mexico</span> <br> 2 rescued, 3 arrested</p>
-
-        <p>Find Gardy: <span style='font-weight: lighter'>Haiti</span> <br>Mission in progress</p>
-
-        <p>Presidential Order : <span style='font-weight: lighter'>Cartagena, Colombia</span> <br>0 rescued, 0 arrested</p>
-
-        <p>Stop the Music : <span style='font-weight: lighter'>California</span> <br>0 rescued, 0 arrested</p>
-
-        <p>Operation Mumbai Tunnels : <span style='font-weight: lighter'>Mumbai, India</span> <br>5 rescued, 21 arrested</p>
-
-        <p>Operation Snake Charmer : <span style='font-weight: lighter'>Thane, India</span> <br>3 rescued, 8arrested</p>
-
-    </div>
-
-    </div>
-
     <h1>This is only a sampling of our rescue operations; additional missions are completed and ongoing.</h1>
 </section>
 <section class='aroundTheWorld'>
-    <div class='slideshowTitle'><p>LEARN ABOUT O.U.R. RECENT RESCUES FROM NEWS SOURCES AROUND THE WORLD:</p></div>
+    <div class='slideshowTitle'>
+        <p>LEARN ABOUT O.U.R. RECENT RESCUES FROM NEWS SOURCES AROUND THE WORLD:</p>
+    </div>
     <div class='slideshowBox'>
         <div></div>
     </div>
