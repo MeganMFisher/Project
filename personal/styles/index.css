@@ -78,7 +78,7 @@ li .fa {
     align-items: center;
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 22px;
     letter-spacing: 3px;
@@ -99,7 +99,7 @@ li .fa {
     width: 462px;
     height: 62px;
     background-color: #f5f5f5;
-    font-size: 19px;
+    font-size: 22px;
     padding: 20px;
     letter-spacing: 3px;
     text-decoration: none;
@@ -169,7 +169,7 @@ li .fa {
 .bottomTopWords p {
     color: white;
     padding-bottom: 50px;
-    font-size: 11px;
+    font-size: 14px;
     line-height: 13px;
     font-weight: bolder;
     letter-spacing: 2px;
@@ -178,7 +178,7 @@ li .fa {
 .bottomTopWords li {
     color: #fac03c;
     padding-bottom: 30px;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 18px;
     letter-spacing: 2px;
 }
@@ -188,7 +188,7 @@ li .fa {
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat';
-    font-size: 16px;
+    font-size: 18px;
     line-height: 18px;
     width: 100%;
     padding-bottom: 50px;

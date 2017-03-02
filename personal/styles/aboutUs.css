@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+#blackWords {
+    color: black;
+}
+
+.sinceWords{
+    color: #fac03c;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    letter-spacing: 2px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+
+.foundedSection {
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.foundedWords {
+    /*padding-top: 10%;*/
+    width: 60%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foundedSection  h2{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    letter-spacing: 2px;
+   
+}
+
+.foundedSection  p{
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2d2d2d;
+    width: 750px;
+    text-align: justify;
+
+}
+
+.foundedImage {
+    background: url('../images/tim.png') no-repeat center;
+    background-size: cover;
+    width: 700px;
+    height: 700px;
+    margin-top: -80px;
+    
+}
+
+/*-------------------------------*/
+
+.routerNav {
+    margin-top: 30px;
+    width: 100%;
+    height: 80px;
+    background-color: #fac03c;
+    font-family: 'Montserrat';
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#whitePromise {
+    color: white;
+}
+
+.greyPromise {
+    width: 100%;
+    height: 330px;
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.greyPromiseImage {
+    background: url('../images/littleGirl.png') no-repeat center;
+    background-size: cover;
+    width: 600px;
+    height: 330px;
+}
+
+.greyPromise h1 {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #222222;
+    font-weight: bolder;
+}
+
+.greyPromise p {
+    color: #222222;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-size: 30px;
+    width: 630px;
+    height: 300px;
+    font-weight: lighter;
+}
+
+#bolderWords {
+    font-weight: bolder;
+}
+
+.picturePromise {
+    width: 100%;
+    height: 330px;
+    background-image: url('../images/lineup.png'),  linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-size: cover;
+    /*display: flex;*/
+    /*align-items: center;*/
+  
+}
+
+.picturePromise p {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+    width: 630px;
+    height: 300px;
+    line-height: 45px;
+    float: right;
+    font-weight: lighter; 
+}
+
+.picturePromise span {
+    color: #f6c647;
+}
+
+.yellowPromise {
+    width: 100%;
+    height: 330px;
+    background-color: #f6c647;
+    display: flex;
+    /*align-items: center;*/
+}
+
+.yellowPromiseImage {
+    background: url('../images/yellowgirl.png') no-repeat center;
+    background-size: cover;
+    width: 700px;
+    height: 330px;
+   
+}
+
+.yellowPromise p {
+    color: #222222;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-size: 30px;
+    width: 630px;
+    height: 300px;
+    font-weight: lighter;
+}
+

@@ -2,7 +2,8 @@
 .videoContainer {
     width: 100%;
     height: 1100px;
-    background: url("http://hillcountryconservancy.org/wp-content/uploads/2016/05/Scenery.jpg");
+    background: url('../images/sunset.jpeg');
+    /*background: url("http://hillcountryconservancy.org/wp-content/uploads/2016/05/Scenery.jpg");*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,7 +11,7 @@
 }
 
 .blackOverlay {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
     position: relative;
 }
 
@@ -56,6 +57,7 @@
     color: white;
     border: none;
     cursor: pointer;
+    position: relative;
 }
 
 .dropbtn:hover {
@@ -72,7 +74,22 @@
     margin-top: 8.5px;
     z-index: 1;
     text-align: center;
-   
+}
+
+#one {
+    left: 23.5%;
+}
+
+#two {
+   left: 32.5%;
+}
+
+#three {
+    right: 10.5%;
+}
+
+#four {
+    right: 0;
 }
 
 .dropdown-content a {
@@ -121,13 +138,14 @@
 }
 
 .fa-play {
-    transform: scale(2.3, 2.3);
+    transform: scale(3, 3);
+    padding-left: 2px;
 }
 
 .videoWords p {
     color: white;
     font-family: 'Montserrat';
-    font-size: 18px;
+    font-size: 25px;
     line-height: 25px;
 }
 
