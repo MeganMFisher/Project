@@ -1,0 +1,82 @@
+
+
+.fightTopSection h2 {
+    color: #fac03c;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    margin-top: 100px;
+    text-align: center;
+    /*margin-right: 50px;*/
+    line-height: 1.5;
+    letter-spacing: 2px;
+
+}
+.fightDonateSection {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat';
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.fightDonateImage {
+    background: url('../images/child.jpg') no-repeat center;
+    background-size: cover;
+    width: 700px;
+    height: 600px;
+}
+
+
+.fightDonateWords p {
+    width: 700px;
+    font-size: 28px;
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+.fightDonateWords span {
+    font-weight: bolder;
+}
+
+.fightOptions {
+    width: 100%;
+    height: 700px;
+    background-color: lightgrey;
+}
+
+.fightYellowBar {
+    width: 100%;
+    height: 60px;
+    background-color: #fac03c;
+}
+
+.fightYellowBar p {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.fightOptionBoxes {
+    /*display: flex;
+    justify-content: space-around;*/
+    /*width: 80%;*/
+    height: 800px;
+    margin-left: 80px;
+    /*margin-right: 80px;*/
+    margin-top: 20px;
+}
+
+.fightOptionBoxes li {
+    
+    background-color: #1e1f20;
+    display: inline-block;
+    width: 23%;
+    height: 35%;
+   
+}

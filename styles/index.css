@@ -159,6 +159,11 @@ li .fa {
 
 }
 
+.bottomTopWords ul {
+    width: 210px;
+}
+
+
 
 .bottomTopWords p {
     color: white;
