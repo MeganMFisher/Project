@@ -153,23 +153,17 @@ li .fa {
 .bottomTopWords {
     display: flex;
     justify-content: space-around;
-    margin-left: 50px;
-    margin-right: 150px;
     padding-top: 40px;
     padding-bottom: 30px;
     font-family: 'Montserrat';
 
 }
 
-/*.bottomTopWords ul {
-    width: 250px;
-    height: 400px;
-}*/
 
 .bottomTopWords p {
     color: white;
     padding-bottom: 50px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 13px;
     font-weight: bolder;
     letter-spacing: 2px;
@@ -178,7 +172,7 @@ li .fa {
 .bottomTopWords li {
     color: #fac03c;
     padding-bottom: 30px;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 18px;
     letter-spacing: 2px;
 }
