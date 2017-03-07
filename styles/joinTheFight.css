@@ -99,9 +99,11 @@
 .fightBoxContent img {
     width: 100px;
     height: 80px;
+    transition: .2s;
 
 }
 
 .fightBoxContent img:hover {
     transform: rotate(25deg);
+    transition: .2s;
 }
