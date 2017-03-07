@@ -4,7 +4,7 @@
     color: #fac03c;
     font-family: 'Montserrat';
     font-size: 45px;
-    margin-top: 100px;
+    /*margin-top: 50px;*/
     text-align: center;
     /*margin-right: 50px;*/
     line-height: 1.5;
@@ -42,6 +42,7 @@
     text-align: justify;
     line-height: 2;
     letter-spacing: 2px;
+    color: white;
 }
 
 .fightDonateWords span {
