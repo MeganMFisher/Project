@@ -141,14 +141,14 @@
     transform: scale(3, 3);
     padding-left: 2px;
 }
-
+/*
 video {
     position: fixed; right: 0; bottom: 0;
     min-width: 100%; min-height: 100%;
     width: auto; height: auto; z-index: -100;
     background: url('http://ourrescue.org/media/OUR_Home.mp4') no-repeat;
     background-size: cover;
-}
+}*/
 
 .videoWords p {
     color: white;
@@ -336,7 +336,7 @@ video {
 
 .aroundTheWorld {
     width: 100%;
-    height: 850px;
+    height: 1000px;
     color: white;
     display: flex;
     justify-content: center;
@@ -354,13 +354,78 @@ video {
     line-height: 44px;
     text-align: center;
     padding-top: 24px;
+    margin-top: 120px;
 }
 
-.slideshowBox {
+.homeImageBox {
     width: 97%;
-    height: 500px;
+    height: 600px;
     background: #f5f5f5;
     margin-bottom: 50px;
+    padding-left: 7%;
+    padding-top: 2%;
+}
+
+/*.homeImageBox {
+    width: 97%;
+    height: 500px;
+}*/
+
+.homeImageBox li {
+    margin: 5px;
+    display: inline-block;
+    width: 30%;
+    height: 45%;
+}
+
+.homeImageBox h1 {
+     font-family: 'Montserrat';
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.homeImageBox p {
+    color: #fac03c;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+.homePicOne {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1486053186fda086a0fcec6b14b77a218b5f338b22.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.homePicTwo {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1461171299b6a16df942b73ded226e4c9864e1f070.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.homePicThree {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/14860535229adb48de2c4ae65dfc339cc944371b40.png') no-repeat center;
+    background-size: cover;
+}
+
+.homePicFour {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/14860533544c23f0d3f10c637944ecd12dddd2444c.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.homePicFive {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/14529042645b480f2af92f2785a6e327c058b9d874.jpeg') no-repeat center;
+    background-size: cover;
+}
+
+.homePicSix {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1456176434fac2fab4273e763c225eda69a7dc3c15.png') no-repeat center;
+    background-size: cover;
 }
 
 
