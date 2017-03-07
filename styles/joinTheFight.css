@@ -75,3 +75,33 @@
     height: 35%;
    
 }
+
+.fightOptionBoxes p {
+    color: #fac03c;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.fightBoxContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fightBoxContent img {
+    width: 100px;
+    height: 80px;
+
+}
+
+.fightBoxContent img:hover {
+    transform: rotate(25deg);
+}
