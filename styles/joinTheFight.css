@@ -111,3 +111,51 @@
     transform: rotate(25deg);
     transition: .2s;
 }
+
+.fightImagesSection {
+    width: 100%;
+    height: 600px;
+    display: flex;
+
+}
+
+.fightFirstImage {
+    background: url('../images/fight-girl1.jpg') no-repeat center;
+    background-size: cover;
+    width: 33.3%;
+    height: 600px;
+    transition: 2s;
+}
+
+.fightFirstImage:hover {
+    width: 100%;
+    transition: 2s;
+}
+
+.fightSecondImage {
+    background: url('../images/fight-girl2.jpeg') no-repeat center;
+    background-size: cover;
+     width: 33.3%;
+    height: 600px;
+    position: relative;
+    transition: 2s;
+}
+
+.fightSecondImage:hover {
+    width: 100%;
+    transition: 2s;
+}
+
+.fightThirdImage {
+    background: url('../images/fight-girl3.jpeg') no-repeat center;
+    background-size: cover;
+     width: 33.33%;
+    height: 600px;
+    position: relative;
+    transition: 2s;
+}
+
+.fightThirdImage:hover {
+    width: 100%;
+    transition: 2s;
+}

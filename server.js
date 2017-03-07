@@ -26,5 +26,5 @@ app.set('db', db);
 var db = app.get('db'); 
 
   app.listen(port, function() {
-  console.log("Started server on port", port);
+  console.log("Listening on port", port);
 });
