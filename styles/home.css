@@ -366,10 +366,6 @@ video {
     padding-top: 2%;
 }
 
-/*.homeImageBox {
-    width: 97%;
-    height: 500px;
-}*/
 
 .homeImageBox li {
     margin: 5px;
@@ -401,31 +397,63 @@ video {
 .homePicOne {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1486053186fda086a0fcec6b14b77a218b5f338b22.jpg') no-repeat center;
     background-size: cover;
+    transition: all .2s ease-in-out;
+}
+
+.homePicOne:hover{
+    transform: scale(1.1);
+    background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1486053186fda086a0fcec6b14b77a218b5f338b22.jpg') no-repeat center;
+    background-size: cover;
 }
 
 .homePicTwo {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1461171299b6a16df942b73ded226e4c9864e1f070.jpg') no-repeat center;
     background-size: cover;
+    transition: all .2s ease-in-out;
+}
+
+.homePicTwo:hover{
+    transform: scale(1.1);
 }
 
 .homePicThree {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/14860535229adb48de2c4ae65dfc339cc944371b40.png') no-repeat center;
     background-size: cover;
+    transition: all .2s ease-in-out;
+}
+
+.homePicThree:hover{
+    transform: scale(1.1);
 }
 
 .homePicFour {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/14860533544c23f0d3f10c637944ecd12dddd2444c.jpg') no-repeat center;
     background-size: cover;
+    transition: all .2s ease-in-out;
+}
+
+.homePicFour:hover{
+    transform: scale(1.1);
 }
 
 .homePicFive {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/14529042645b480f2af92f2785a6e327c058b9d874.jpeg') no-repeat center;
     background-size: cover;
+    transition: all .2s ease-in-out;
+}
+
+.homePicFive:hover{
+    transform: scale(1.1);
 }
 
 .homePicSix {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1456176434fac2fab4273e763c225eda69a7dc3c15.png') no-repeat center;
     background-size: cover;
+    transition: all .2s ease-in-out;
+}
+
+.homePicSix:hover{
+    transform: scale(1.1);
 }
 
 
