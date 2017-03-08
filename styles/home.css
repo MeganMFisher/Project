@@ -466,12 +466,23 @@ video {
 /*---------------------------*/
 
 .newsBox {
+    width: 90%;
     display: flex;
+    justify-content: space-between;
     margin-bottom: -70px;
+    align-items: center;
 }
 
 .newsImages img {
-   height: 200px;
-   width: 250px;
+    width: 150px;
+    height: 100px;
     background-size: cover;
+    
+}
+
+@media(min-width: 1640px) {
+    .newsBox {
+        width: 80%;
+    }
+
 }
