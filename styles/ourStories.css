@@ -1,0 +1,65 @@
+.storiesTopSection {
+    background: url('../images/smallChild.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+}
+
+.storiesMainWords {
+    padding-top: 200px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10%;
+}
+
+.storiesTopSection h1 {
+    color: #fac03c;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.storiesTopSection p {
+    font-size: 20px;
+    font-weight: lighter;
+    width: 40%;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.storiesTopSection h2 {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.storiesTopSection span {
+    color: #fac03c;
+}
+
+.storiesPanorama {
+    width: 100%;
+    margin: 0 auto;
+    height: 700px;
+}
+
+.storiesPanoramaList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    user-select: none;
+    height: 700px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.storiesSliderImage {
+    background: url('http://ourrescue.org/assets/img/stories_slide.jpg') no-repeat;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
