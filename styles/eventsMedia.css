@@ -3,7 +3,9 @@
     height: 900px;
     margin-top: 100px;
     margin-left: 10%;
-    background-color: #1e1f20;
+    /*background-color: #1e1f20;*/
+    background: url('http://community.shiftwear.com/uploads/monthly_2016_03/large.7006082-black-pattern-background-14095.jpg.4fd9741e51f62d5083590666d1a703f2.jpg') no-repeat;
+    background-size: cover;
     margin-bottom: 100px;
 }
 
