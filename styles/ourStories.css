@@ -164,3 +164,60 @@
 .whaleImageButton .fa {
     color: white;
 }
+
+.whaleVideo {
+    margin-left: 10%;
+    background: url('https://i.vimeocdn.com/video/567000763.webp?mw=1300&mh=731') no-repeat;
+    background-size: 100%;
+    width: 80%;
+    height: 800px;
+    margin-bottom: 20px;
+}
+
+.whaleStory {
+    width: 95%;
+    height: 1700px;
+    padding-left: 5%;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 20px;
+    color: #414141;
+}
+
+.whaleFullWords {
+    width: 100%;
+}
+
+.whaleBoxAndWords {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whaleBoxAndWords p {
+    width: 70%;
+}
+
+.whaleYellowBox {
+    width: 28%;
+    height: 100%;
+    background-color: #fac03c;
+    padding: 60px 60px;
+
+}
+
+.whaleBoxWords {
+    width: 300px;
+    margin: auto;
+}
+
+.whaleBoxWords strong {
+    color: #ffffff;
+    text-align: justify;
+    font-size: 30px;
+    line-height: 50px;
+
+}
+
