@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
 #blackWords {
     color: black;
 }
 
-.sinceWords{
+.sinceWords {
     color: #fac03c;
     font-family: 'Montserrat';
     font-size: 36px;
@@ -30,14 +29,13 @@
     justify-content: space-between;
 }
 
-.foundedSection  h2{
+.foundedSection h2 {
     font-family: 'Montserrat';
     font-size: 20px;
     letter-spacing: 2px;
-   
 }
 
-.foundedSection  p{
+.foundedSection p {
     font-family: 'Montserrat';
     font-weight: lighter;
     letter-spacing: 2px;
@@ -46,7 +44,6 @@
     color: #2d2d2d;
     width: 750px;
     text-align: justify;
-
 }
 
 .foundedImage {
@@ -55,8 +52,8 @@
     width: 700px;
     height: 700px;
     margin-top: -80px;
-    
 }
+
 
 /*-------------------------------*/
 
@@ -81,6 +78,16 @@
     color: white;
 }
 
+.promiseBoxes {
+    width: 50%;
+    height: 100%;
+}
+
+#firstBox {
+    display: flex;
+    justify-content: space-around;
+}
+
 .greyPromise {
     width: 100%;
     height: 330px;
@@ -91,13 +98,16 @@
 }
 
 .greyPromiseImage {
-    /*background: url('../images/littleGirl.png') no-repeat center;*/
+    background: url('http://ourrescue.org/assets/img/about_promise_promise_background.png') no-repeat center;
     background-size: cover;
-    width: 600px;
-    height: 330px;
+    width: 100%;
+    height: 100%;
 }
 
 .greyPromise h1 {
+    float: right;
+    padding-right: 100px;
+    padding-top: 150px;
     font-family: 'Montserrat';
     font-size: 30px;
     color: #222222;
@@ -113,7 +123,7 @@
     height: 300px;
     font-weight: lighter;
     line-height: 45px;
-    
+    padding-top: 60px;
 }
 
 .picturePromise {
@@ -121,7 +131,7 @@
     height: 330px;
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/lineup.png');
     background-size: cover;
-
+    display: flex;
 }
 
 .picturePromise p {
@@ -132,8 +142,9 @@
     width: 630px;
     height: 300px;
     line-height: 45px;
-    float: right;
-    font-weight: lighter; 
+    font-weight: lighter;
+    padding-top: 70px;
+    margin-left: 10%;
 }
 
 .boldYellow {
@@ -153,11 +164,10 @@ strong {
 }
 
 .yellowPromiseImage {
-    /*background: url('../images/yellowgirl.png') no-repeat center;*/
+    background: url('http://ourrescue.org/assets/img/about_promise_donate_background.png') no-repeat center;
     background-size: cover;
     width: 700px;
-    height: 330px;
-   
+    height: 100%;
 }
 
 .yellowPromise p {
@@ -168,6 +178,8 @@ strong {
     width: 630px;
     height: 300px;
     line-height: 45px;
+    padding-top: 90px;
+    font-weight: lighter;
 }
 
 .aboutUsDonate {
