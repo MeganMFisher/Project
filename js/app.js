@@ -42,12 +42,6 @@ angular.module('app', ['ui.router'])
            
         })
 
-        .state('technology',{
-            url: '/technology',
-            templateUrl: '../views/technology.html',
-            
-        })
-
         .state('ourstories',{
             url: '/ourstories',
             templateUrl: '../views/ourStories.html',
