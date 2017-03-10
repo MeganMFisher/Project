@@ -42,26 +42,19 @@
 
 .storiesPanorama {
     width: 100%;
-    margin: 0 auto;
-    height: 700px;
-}
-
-.storiesPanoramaList {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    user-select: none;
-    height: 700px;
-    width: 100%;
+    /*margin: 0 auto;*/
+    height: 635px;
+    overflow: auto;
+    white-space: nowrap;
     padding-top: 100px;
 }
 
+
 .storiesSliderImage {
+    display: inline-block;
     background: url('http://ourrescue.org/assets/img/stories_slide.jpg') no-repeat;
     height: 100%;
-    width: 100%;
-    vertical-align: middle;
+    width: 4780px;
 }
 
 .storiesWhaleWatch {
