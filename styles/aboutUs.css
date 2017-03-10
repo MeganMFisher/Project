@@ -8,7 +8,7 @@
     font-family: 'Montserrat';
     font-size: 36px;
     letter-spacing: 2px;
-    padding-left: 80px;
+    padding-left: 5%;
     padding-bottom: 30px;
     padding-top: 80px;
 }
@@ -16,8 +16,8 @@
 .foundedSection {
     display: flex;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .foundedWords {
@@ -185,4 +185,21 @@ strong {
 .aboutUsDonate {
     color: white;
     text-decoration: underline;
+}
+
+@media(min-width: 1600px){
+    .foundedImage {
+        width: 50%;
+        height: 900px;
+    }
+
+    .foundedSection {
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+
+    .sinceWords {
+        padding-left: 10%;
+    }
+    
 }
