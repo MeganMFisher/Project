@@ -70,10 +70,12 @@
     font-family: 'Montserrat';
     letter-spacing: 2px;
     padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
 }
 
 .storiesWhaleWatch p {
-    width: 80%;
+    width: 90%;
     text-align: justify;
     line-height: 30px;
     font-size: 20px;
@@ -94,7 +96,71 @@
     font-weight: bolder;
 }
 
+.whaleDetails {
+    display: flex;
+}
+
+.whaleDetails h2 {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 18px;
+    color: #686867;
+    background-color: #fac03c; 
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.whaleDetails h3 {
+    width: 200px;
+    height: 50px;
+    margin-right: 5px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 18px;
+    color: #696968;
+    background-color: #c1c1c0; 
+    font-size: 18px;
+}
+
 .whaleImages {
+    padding-top: 10%;
     width: 35%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.whaleImageOne {
+    width: 100%;
+    height: 40%;
+    background: url('http://ourrescue.org/assets/img/page-thumbnail/146316598324a2dd122d681067f841f5bdcace99e5.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.whaleImageTwo {
+    width: 100%;
+    height: 40%;
+    background: url('http://ourrescue.org/assets/img/page-thumbnail/1463166003430477e213ddb09d973a972d4b066ab2.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.whaleImageButton {
+    width: 60px;
+    height: 60px;
+    background-color: #fac03c;
+    text-align: center;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.whaleImageButton .fa {
+    color: white;
 }
