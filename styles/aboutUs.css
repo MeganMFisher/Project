@@ -187,7 +187,7 @@ strong {
     text-decoration: underline;
 }
 
-@media(min-width: 1600px){
+@media(min-width: 1800px){
     .foundedImage {
         width: 50%;
         height: 900px;
