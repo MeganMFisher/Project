@@ -1,0 +1,129 @@
+.eventsSection {
+    width: 80%;
+    height: 900px;
+    margin-top: 100px;
+    margin-left: 10%;
+    background-color: #1e1f20;
+    margin-bottom: 100px;
+}
+
+.eventsSection nav {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .01px solid #6f7070;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 15px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.archiveBox {
+    text-align: center;
+    font-size: 20px;
+    width: 280px;
+    height: 50px;
+    background-color: #313131;
+}
+
+.eventsYellowHighlight {
+    width: 100%;
+    height: 100px;
+    background-color: #fac03c;
+}
+
+.eventsYellowHighlight h2 {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.eventsImagesBox {
+     width: 90%;
+    height: 700px;
+    margin-left: 5%;
+    background-color: #f5f5f5;
+
+}
+
+.eventsImages {
+    padding-left: 12%;
+    padding-top: 5%;
+     width: 90%;
+    height: 700px;
+}
+
+.eventsImages li {
+    margin: 5px;
+    display: inline-block;
+    width: 23%;
+    height: 28%;
+}
+
+.eventsImageOne {
+  background: url('http://ourrescue.org/assets/img/event-highlight-thumbnail/1463432778e4d0fbcfa2c00f4f7a52cb25dd8e471b.jpg') no-repeat;
+    background-size: cover;
+}
+.eventsImageTwo {
+  background: url('http://ourrescue.org/assets/img/event-highlight-thumbnail/1463432929ccc5e6c9a27da73834c3d6bb5ecca98c.png') no-repeat;
+    background-size: cover;
+}
+
+.eventsImageThree {
+  background: url('http://ourrescue.org/blog/wp-content/uploads/2016/08/IMGP8665-Version-2-513x343.jpg') no-repeat;
+    background-size: cover;
+}
+
+.eventsImageFour {
+  background: url('http://ourrescue.org/assets/img/event-highlight-thumbnail/146343242051300708c14a4838905f03f51d6a71af.jpg') no-repeat;
+    background-size: cover;
+}
+
+.eventsImageFive {
+  background: url('http://ourrescue.org/assets/img/event-highlight-thumbnail/14527143744a47a0db6e60853dedfcfdf08a5ca249.png') no-repeat;
+    background-size: cover;
+}
+
+.eventsImageSix {
+  background: url('http://ourrescue.org/assets/img/event-highlight-thumbnail/1452780015fb5c81ed3a220004b71069645f112867.png') no-repeat;
+    background-size: cover;
+}
+
+.eventsImageSeven {
+  background: url('http://ourrescue.org/assets/img/event-highlight-thumbnail/1463432492896c5ee2c735aed1b942645999beede1.jpg') no-repeat;
+    background-size: cover;
+}
+
+.eventsImageEight {
+  background: url('http://ourrescue.org/assets/img/event-highlight-thumbnail/145278002510fb15c77258a991b0028080a64fb42d.png') no-repeat;
+    background-size: cover;
+}
+
+.eventsImageNine {
+  background: url('http://ourrescue.org/assets/img/event-highlight-thumbnail/145278005409dd8c2662b96ce14928333f055c5580.png') no-repeat;
+    background-size: cover;
+}
+
+.eventsImageTen {
+  background: url('http://ourrescue.org/assets/img/event-highlight-thumbnail/14527800678266e4bfeda1bd42d8f9794eb4ea0a13.png') no-repeat;
+    background-size: cover;
+}
+
+.eventsImageEleven {
+  background: url('http://ourrescue.org/assets/img/event-highlight-thumbnail/1463432622453fd88f33180ebc0c93091812219529.JPG') no-repeat;
+    background-size: cover;
+}
+
+.eventsImageTwelve {
+  background: url('http://www.slaveryfreeworld.org/wp-content/uploads/2015/10/Tim-Ballard-speaks-on-O.U.-R.--e1444254358522.jpg') no-repeat;
+    background-size: cover;
+}
