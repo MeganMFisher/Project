@@ -111,14 +111,9 @@
     font-size: 30px;
     width: 630px;
     height: 300px;
-    /*font-weight: lighter;*/
+    font-weight: lighter;
     line-height: 45px;
     
-}
-
-#bolderWords {
-    font-weight: bolder;
-    line-height: 65px;
 }
 
 .picturePromise {
@@ -138,10 +133,10 @@
     height: 300px;
     line-height: 45px;
     float: right;
-    /*font-weight: lighter; */
+    font-weight: lighter; 
 }
 
-.picturePromise span {
+.boldYellow {
     color: #f6c647;
 }
 
@@ -151,6 +146,10 @@
     background-color: #f6c647;
     display: flex;
     /*align-items: center;*/
+}
+
+strong {
+    font-style: normal;
 }
 
 .yellowPromiseImage {
@@ -171,3 +170,7 @@
     line-height: 45px;
 }
 
+.aboutUsDonate {
+    color: white;
+    text-decoration: underline;
+}
