@@ -36,7 +36,6 @@
     color: white;
     font-family: 'Montserrat';
     display: flex;
-    
 }
 
 .dropdown a {
@@ -48,7 +47,6 @@
     text-decoration: none;
     color: white;
     font-weight: bold;
-    
 }
 
 .dropbtn {
@@ -65,13 +63,12 @@
     border-bottom: 5px solid #f5c010;
 }
 
-
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #58585a;
     max-width: 280px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     margin-top: 8.5px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -84,7 +81,7 @@
 }
 
 #two {
-   transform: translate(-32px);
+    transform: translate(-32px);
 }
 
 #three {
@@ -144,6 +141,8 @@
     transform: scale(3, 3);
     padding-left: 2px;
 }
+
+
 /*
 video {
     position: fixed; right: 0; bottom: 0;
@@ -223,9 +222,9 @@ video {
 }
 
 .imagecrButton {
-    background: url("../images/fistPump.png") no-repeat center;
-    width: 120px;
-    height: 120px;
+    background: url("http://ourrescue.org/assets/img/rescue-icon.svg") no-repeat;
+    width: 79px;
+    height: 100px;
     background-size: cover;
 }
 
@@ -234,10 +233,9 @@ video {
 }
 
 .imagerpButton {
-    background: url("../images/xoArrow.png") no-repeat center;
-    width: 120px;
-    height: 120px;
-    background-size: cover;
+    background: url("http://ourrescue.org/assets/img/planning-icon.svg") no-repeat;
+    width: 110px;
+    height: 110px;
 }
 
 .imagerpButton:hover {
@@ -281,14 +279,31 @@ video {
     font-weight: bolder;
 }
 
-.worldImage {
+.gridImage {
     margin-top: 70px;
-    background: url('../images/worldImage.png') no-repeat center;
+    background: url('http://ourrescue.org/assets/img/homepage_map_grid.svg') no-repeat center;
     background-size: cover;
     width: 100%;
     height: 700px;
     margin-bottom: 100px;
+    z-index: 0;
+    position: absolute;
 }
+
+.worldImage {
+    position: absolute;
+    margin-top: 30px;
+    /*margin-top: -60px;*/
+    background: url('http://ourrescue.org/assets/img/homepage_map.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 100px;
+    z-index: 10;
+    transition: 6s ease-in;
+    /*transition: transform(0, 90px);*/
+}
+
 
 .yellowOperations {
     width: 100%;
@@ -337,6 +352,8 @@ video {
 .thirdOpList {
     padding-right: 10px;
 }
+
+
 /*---------------------------*/
 
 .aroundTheWorld {
@@ -371,7 +388,6 @@ video {
     padding-top: 2%;
 }
 
-
 .homeImageBox li {
     margin: 5px;
     display: inline-block;
@@ -380,7 +396,7 @@ video {
 }
 
 .homeImageBox h1 {
-     font-family: 'Montserrat';
+    font-family: 'Montserrat';
     font-size: 22px;
     letter-spacing: 2px;
     line-height: 25px;
@@ -402,10 +418,9 @@ video {
 .homePicOne {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1486053186fda086a0fcec6b14b77a218b5f338b22.jpg') no-repeat;
     background-size: cover;
-    transition: all .2s ease-in-out;
 }
 
-.homePicOne:hover{
+.homePicOne:hover {
     background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1486053186fda086a0fcec6b14b77a218b5f338b22.jpg') no-repeat;
     background-size: cover;
 }
@@ -413,10 +428,9 @@ video {
 .homePicTwo {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1461171299b6a16df942b73ded226e4c9864e1f070.jpg') no-repeat;
     background-size: cover;
-    transition: all .2s ease-in-out;
 }
 
-.homePicTwo:hover{
+.homePicTwo:hover {
     background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1461171299b6a16df942b73ded226e4c9864e1f070.jpg') no-repeat;
     background-size: cover;
 }
@@ -424,10 +438,9 @@ video {
 .homePicThree {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/14860535229adb48de2c4ae65dfc339cc944371b40.png') no-repeat;
     background-size: cover;
-    transition: all .2s ease-in-out;
 }
 
-.homePicThree:hover{
+.homePicThree:hover {
     background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/14860535229adb48de2c4ae65dfc339cc944371b40.png') no-repeat;
     background-size: cover;
 }
@@ -435,10 +448,9 @@ video {
 .homePicFour {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/14860533544c23f0d3f10c637944ecd12dddd2444c.jpg') no-repeat;
     background-size: cover;
-    transition: all .2s ease-in-out;
 }
 
-.homePicFour:hover{
+.homePicFour:hover {
     background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/14860533544c23f0d3f10c637944ecd12dddd2444c.jpg') no-repeat;
     background-size: cover;
 }
@@ -446,22 +458,19 @@ video {
 .homePicFive {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/14529042645b480f2af92f2785a6e327c058b9d874.jpeg') no-repeat;
     background-size: cover;
-    transition: all .2s ease-in-out;
 }
 
-.homePicFive:hover{
+.homePicFive:hover {
     background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/14529042645b480f2af92f2785a6e327c058b9d874.jpeg') no-repeat;
     background-size: cover;
-
 }
 
 .homePicSix {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1456176434fac2fab4273e763c225eda69a7dc3c15.png') no-repeat center;
     background-size: cover;
-    transition: all .2s ease-in-out;
 }
 
-.homePicSix:hover{
+.homePicSix:hover {
     background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('http://ourrescue.org/assets/img/home-callout-thumbnail/1456176434fac2fab4273e763c225eda69a7dc3c15.png') no-repeat center;
     background-size: cover;
 }
@@ -482,12 +491,10 @@ video {
     width: 150px;
     height: 110px;
     background-size: cover;
-    
 }
 
 @media(min-width: 1640px) {
     .newsBox {
         width: 80%;
     }
-
 }

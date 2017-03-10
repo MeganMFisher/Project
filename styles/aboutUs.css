@@ -129,7 +129,7 @@
 .picturePromise {
     width: 100%;
     height: 330px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/lineup.png');
+    background-image: url('http://ourrescue.org/assets/img/about_promise_team_background.png');
     background-size: cover;
     display: flex;
 }

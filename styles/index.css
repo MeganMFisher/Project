@@ -137,11 +137,17 @@ li .fa {
     border-radius: 50%;
     margin-left: 10px;
     margin-right: 10px;
+    transition-duration: 2s
 }
 
 .followUs button .fa{
     color: white;
     transform: scale(2.5, 2.5);
+}
+
+.followUs button:hover {
+    transform: rotate(360deg);
+    transition-duration: 2s;
 }
 
 .bottomFooterBox {
