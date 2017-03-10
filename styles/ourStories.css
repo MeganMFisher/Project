@@ -63,3 +63,38 @@
     width: 100%;
     vertical-align: middle;
 }
+
+.storiesWhaleWatch {
+    width: 100%;
+    height: 1200px;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    padding-left: 5%;
+}
+
+.storiesWhaleWatch p {
+    width: 80%;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    color: #414141;
+}
+
+.whaleInfo {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.whaleInfo h1 {
+    color: #fac03c;
+    font-size: 46px;
+    font-weight: bolder;
+}
+
+.whaleImages {
+    width: 35%;
+    height: 100%;
+}
