@@ -78,15 +78,15 @@
 }
 
 #one {
-    /*left: 26%;*/
+    transform: translate(-45px);
 }
 
 #two {
-   /*left: 35%;*/
+   transform: translate(-45px);
 }
 
 #three {
-    /*right: 10.5%;*/
+    transform: translate(-45px);
 }
 
 #four {
