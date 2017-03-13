@@ -1,0 +1,1443 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+#blackWords {
+  color: black; }
+
+.sinceWords {
+  color: #fac03c;
+  font-family: 'Montserrat';
+  font-size: 36px;
+  letter-spacing: 2px;
+  padding-left: 5%;
+  padding-bottom: 30px;
+  padding-top: 80px; }
+
+.foundedSection {
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%; }
+
+.foundedWords {
+  /*padding-top: 10%;*/
+  width: 60%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.foundedSection h2 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  letter-spacing: 2px; }
+
+.foundedSection p {
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #2d2d2d;
+  width: 750px;
+  text-align: justify; }
+
+.foundedImage {
+  background: url("../images/tim.png") no-repeat center;
+  background-size: cover;
+  width: 700px;
+  height: 700px;
+  margin-top: -80px; }
+
+/*-------------------------------*/
+.routerNav {
+  margin-top: 30px;
+  width: 100%;
+  height: 80px;
+  background-color: #fac03c;
+  font-family: 'Montserrat';
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 15%;
+  padding-right: 15%;
+  align-items: center;
+  text-transform: uppercase; }
+
+#whitePromise {
+  color: white; }
+
+.promiseBoxes {
+  width: 50%;
+  height: 100%; }
+
+#firstBox {
+  display: flex;
+  justify-content: space-around; }
+
+.greyPromise {
+  width: 100%;
+  height: 330px;
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.greyPromiseImage {
+  background: url("http://ourrescue.org/assets/img/about_promise_promise_background.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+.greyPromise h1 {
+  float: right;
+  padding-right: 100px;
+  padding-top: 150px;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  color: #222222;
+  font-weight: bolder; }
+
+.greyPromise p {
+  color: #222222;
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-size: 30px;
+  width: 630px;
+  height: 300px;
+  font-weight: lighter;
+  line-height: 45px;
+  padding-top: 60px; }
+
+.picturePromise {
+  width: 100%;
+  height: 330px;
+  background-image: url("http://ourrescue.org/assets/img/about_promise_team_background.png");
+  background-size: cover;
+  display: flex; }
+
+.picturePromise p {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-size: 30px;
+  color: white;
+  width: 630px;
+  height: 300px;
+  line-height: 45px;
+  font-weight: lighter;
+  padding-top: 70px;
+  margin-left: 10%; }
+
+.boldYellow {
+  color: #f6c647; }
+
+.yellowPromise {
+  width: 100%;
+  height: 330px;
+  background-color: #f6c647;
+  display: flex;
+  /*align-items: center;*/ }
+
+strong {
+  font-style: normal; }
+
+.yellowPromiseImage {
+  background: url("http://ourrescue.org/assets/img/about_promise_donate_background.png") no-repeat center;
+  background-size: cover;
+  width: 700px;
+  height: 100%; }
+
+.yellowPromise p {
+  color: #222222;
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-size: 30px;
+  width: 630px;
+  height: 300px;
+  line-height: 45px;
+  padding-top: 90px;
+  font-weight: lighter; }
+
+.aboutUsDonate {
+  color: white;
+  text-decoration: underline; }
+
+@media (min-width: 1800px) {
+  .foundedImage {
+    width: 50%;
+    height: 900px; }
+  .foundedSection {
+    padding-left: 10%;
+    padding-right: 10%; }
+  .sinceWords {
+    padding-left: 10%; } }
+
+.eventsSection {
+  width: 80%;
+  height: 900px;
+  margin-top: 100px;
+  margin-left: 10%;
+  /*background-color: #1e1f20;*/
+  background: url("http://community.shiftwear.com/uploads/monthly_2016_03/large.7006082-black-pattern-background-14095.jpg.4fd9741e51f62d5083590666d1a703f2.jpg") no-repeat;
+  background-size: cover;
+  margin-bottom: 100px; }
+
+.eventsSection nav {
+  width: 95%;
+  margin-left: 2.5%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: .01px solid #6f7070;
+  align-items: center; }
+
+h1 {
+  padding-top: 15px;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  color: white;
+  letter-spacing: 2px; }
+
+.archiveBox {
+  text-align: center;
+  font-size: 20px;
+  width: 280px;
+  height: 50px;
+  background-color: #313131; }
+
+.eventsYellowHighlight {
+  width: 100%;
+  height: 100px;
+  background-color: #fac03c; }
+
+.eventsYellowHighlight h2 {
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  text-align: center;
+  padding-top: 40px; }
+
+.eventsImagesBox {
+  width: 90%;
+  height: 700px;
+  margin-left: 5%;
+  background-color: #f5f5f5; }
+
+.eventsImages {
+  padding-left: 12%;
+  padding-top: 5%;
+  width: 90%;
+  height: 700px; }
+
+.eventsImages li {
+  margin: 5px;
+  display: inline-block;
+  width: 23%;
+  height: 28%; }
+
+.eventsImageOne {
+  background: url("http://ourrescue.org/assets/img/event-highlight-thumbnail/1463432778e4d0fbcfa2c00f4f7a52cb25dd8e471b.jpg") no-repeat;
+  background-size: cover; }
+
+.eventsImageTwo {
+  background: url("http://ourrescue.org/assets/img/event-highlight-thumbnail/1463432929ccc5e6c9a27da73834c3d6bb5ecca98c.png") no-repeat;
+  background-size: cover; }
+
+.eventsImageThree {
+  background: url("http://ourrescue.org/blog/wp-content/uploads/2016/08/IMGP8665-Version-2-513x343.jpg") no-repeat;
+  background-size: cover; }
+
+.eventsImageFour {
+  background: url("http://ourrescue.org/assets/img/event-highlight-thumbnail/146343242051300708c14a4838905f03f51d6a71af.jpg") no-repeat;
+  background-size: cover; }
+
+.eventsImageFive {
+  background: url("http://ourrescue.org/assets/img/event-highlight-thumbnail/14527143744a47a0db6e60853dedfcfdf08a5ca249.png") no-repeat;
+  background-size: cover; }
+
+.eventsImageSix {
+  background: url("http://ourrescue.org/assets/img/event-highlight-thumbnail/1452780015fb5c81ed3a220004b71069645f112867.png") no-repeat;
+  background-size: cover; }
+
+.eventsImageSeven {
+  background: url("http://ourrescue.org/assets/img/event-highlight-thumbnail/1463432492896c5ee2c735aed1b942645999beede1.jpg") no-repeat;
+  background-size: cover; }
+
+.eventsImageEight {
+  background: url("http://ourrescue.org/assets/img/event-highlight-thumbnail/145278002510fb15c77258a991b0028080a64fb42d.png") no-repeat;
+  background-size: cover; }
+
+.eventsImageNine {
+  background: url("http://ourrescue.org/assets/img/event-highlight-thumbnail/145278005409dd8c2662b96ce14928333f055c5580.png") no-repeat;
+  background-size: cover; }
+
+.eventsImageTen {
+  background: url("http://ourrescue.org/assets/img/event-highlight-thumbnail/14527800678266e4bfeda1bd42d8f9794eb4ea0a13.png") no-repeat;
+  background-size: cover; }
+
+.eventsImageEleven {
+  background: url("http://ourrescue.org/assets/img/event-highlight-thumbnail/1463432622453fd88f33180ebc0c93091812219529.JPG") no-repeat;
+  background-size: cover; }
+
+.eventsImageTwelve {
+  background: url("http://www.slaveryfreeworld.org/wp-content/uploads/2015/10/Tim-Ballard-speaks-on-O.U.-R.--e1444254358522.jpg") no-repeat;
+  background-size: cover; }
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.secondNavBar {
+  z-index: 10;
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; }
+
+.navMainLogo {
+  margin-left: 2%;
+  background: url("http://ourrescue.org/assets/img/logo.svg") no-repeat center;
+  /*background-size: cover;*/
+  width: 300px;
+  height: 150px; }
+
+.secondList {
+  color: white;
+  font-family: 'Montserrat';
+  display: flex; }
+
+.dropdown a {
+  margin-left: 30px;
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold; }
+
+.dropbtn {
+  padding-bottom: 5px;
+  border-bottom: 5px solid transparent;
+  color: white;
+  border: none;
+  /*cursor: pointer;*/
+  position: relative;
+  /*display: inline-block;*/ }
+
+.dropbtn:hover {
+  border-bottom: 5px solid #f5c010; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #58585a;
+  max-width: 280px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 8.5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  z-index: 1;
+  text-align: center; }
+
+#one {
+  transform: translate(-42px); }
+
+#two {
+  transform: translate(-32px); }
+
+#three {
+  transform: translate(-40px); }
+
+#four {
+  right: 0; }
+
+.dropdown-content a {
+  color: white;
+  padding: 19px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Montserrat';
+  text-transform: uppercase; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+.videoContainer {
+  width: 100%;
+  height: 1000px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("../images/field3.jpg");
+  /*background: url("http://hillcountryconservancy.org/wp-content/uploads/2016/05/Scenery.jpg");*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.blackOverlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  position: relative; }
+
+.videoWords {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-between; }
+
+.videoWords h2 {
+  font-size: 55px;
+  line-height: 51px;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  padding-bottom: 13%;
+  padding-top: 40px;
+  text-align: center;
+  letter-spacing: 2px; }
+
+.videoWords button {
+  width: 90px;
+  height: 90px;
+  background: #99999a;
+  border-radius: 50%;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  margin-bottom: 50px; }
+
+.fa-play {
+  transform: scale(3, 3);
+  padding-left: 2px; }
+
+/*
+video {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url('http://ourrescue.org/media/OUR_Home.mp4') no-repeat;
+    background-size: cover;
+}*/
+.videoWords p {
+  color: #f5c010;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  font-weight: bolder; }
+
+.typingBox {
+  width: 370px; }
+
+.css-typing {
+  width: 50em;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 20s steps(150, end); }
+
+@keyframes type {
+  from {
+    width: 0; } }
+
+.firstSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1650px;
+  width: 100%; }
+
+.whiteWords {
+  width: 100%;
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 80px; }
+
+.whiteWords h3 {
+  font-family: 'Montserrat';
+  font-size: 34px;
+  color: #222222;
+  line-height: 35px;
+  font-weight: bolder; }
+
+.whiteWords h2 {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  color: #222222;
+  line-height: 44px;
+  font-weight: lighter; }
+
+.blackButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 266px;
+  /*padding-bottom: 200px;*/ }
+
+.firstbButton {
+  padding: 80px; }
+
+.secondbButton {
+  padding: 80px; }
+
+.crButton {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #1e1f20;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.imagecrButton {
+  background: url("http://ourrescue.org/assets/img/rescue-icon.svg") no-repeat;
+  width: 79px;
+  height: 100px;
+  background-size: cover; }
+
+.imagecrButton:hover {
+  transform: rotate(25deg); }
+
+.imagerpButton {
+  background: url("http://ourrescue.org/assets/img/planning-icon.svg") no-repeat;
+  width: 110px;
+  height: 110px; }
+
+.imagerpButton:hover {
+  transform: rotate(25deg); }
+
+.rpButton {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #1e1f20;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.blackButtons p {
+  color: #fac03c;
+  font-size: 22px;
+  line-height: 34px;
+  font-family: 'Montserrat';
+  /*font-weight: bold;*/
+  width: 200px;
+  height: 43px;
+  text-align: center;
+  padding: 15px; }
+
+.rescueWords {
+  font-size: 34px;
+  line-height: 44px;
+  font-family: 'Montserrat';
+  color: #222222;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding-top: 100px; }
+
+.rescueWords p span {
+  font-weight: bolder; }
+
+.gridImage {
+  margin-top: 70px;
+  background: url("http://ourrescue.org/assets/img/homepage_map_grid.svg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin-bottom: 100px;
+  z-index: 0;
+  position: absolute; }
+
+.worldImage {
+  position: absolute;
+  margin-top: 30px;
+  /*margin-top: -60px;*/
+  background: url("http://ourrescue.org/assets/img/homepage_map.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin-bottom: 100px;
+  z-index: 10;
+  transition: 6s ease-in;
+  /*transition: transform(0, 90px);*/ }
+
+.yellowOperations {
+  width: 100%;
+  height: 870px;
+  background: url("../images/yellow.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.yellowOperations p {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 50px; }
+
+.yellowOperations h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 30px;
+  line-height: 42px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  text-align: center; }
+
+.yellowOperations h1 {
+  font-family: 'Montserrat';
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 16px;
+  /*padding-bottom: 20px;*/ }
+
+.operationsList {
+  display: flex;
+  justify-content: space-around; }
+
+.firstOpList {
+  padding-left: 30px; }
+
+.thirdOpList {
+  padding-right: 10px; }
+
+/*---------------------------*/
+.aroundTheWorld {
+  width: 100%;
+  height: 1100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.slideshowTitle {
+  width: 97%;
+  height: 90px;
+  background-color: #1e1f21;
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 26px;
+  line-height: 44px;
+  text-align: center;
+  padding-top: 24px;
+  margin-top: 80px; }
+
+.homeImageBox {
+  width: 97%;
+  height: 600px;
+  background: #f5f5f5;
+  margin-bottom: 50px;
+  padding-left: 7%;
+  padding-top: 2%; }
+
+.homeImageBox li {
+  margin: 5px;
+  display: inline-block;
+  width: 30%;
+  height: 45%; }
+
+.homeImageBox h1 {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 80px; }
+
+.homeImageBox p {
+  color: #fac03c;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: lighter; }
+
+.homePicOne {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://ourrescue.org/assets/img/home-callout-thumbnail/1486053186fda086a0fcec6b14b77a218b5f338b22.jpg") no-repeat;
+  background-size: cover; }
+
+.homePicOne:hover {
+  background: linear-gradient(transparent, transparent), url("http://ourrescue.org/assets/img/home-callout-thumbnail/1486053186fda086a0fcec6b14b77a218b5f338b22.jpg") no-repeat;
+  background-size: cover; }
+
+.homePicTwo {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://ourrescue.org/assets/img/home-callout-thumbnail/1461171299b6a16df942b73ded226e4c9864e1f070.jpg") no-repeat;
+  background-size: cover; }
+
+.homePicTwo:hover {
+  background: linear-gradient(transparent, transparent), url("http://ourrescue.org/assets/img/home-callout-thumbnail/1461171299b6a16df942b73ded226e4c9864e1f070.jpg") no-repeat;
+  background-size: cover; }
+
+.homePicThree {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://ourrescue.org/assets/img/home-callout-thumbnail/14860535229adb48de2c4ae65dfc339cc944371b40.png") no-repeat;
+  background-size: cover; }
+
+.homePicThree:hover {
+  background: linear-gradient(transparent, transparent), url("http://ourrescue.org/assets/img/home-callout-thumbnail/14860535229adb48de2c4ae65dfc339cc944371b40.png") no-repeat;
+  background-size: cover; }
+
+.homePicFour {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://ourrescue.org/assets/img/home-callout-thumbnail/14860533544c23f0d3f10c637944ecd12dddd2444c.jpg") no-repeat;
+  background-size: cover; }
+
+.homePicFour:hover {
+  background: linear-gradient(transparent, transparent), url("http://ourrescue.org/assets/img/home-callout-thumbnail/14860533544c23f0d3f10c637944ecd12dddd2444c.jpg") no-repeat;
+  background-size: cover; }
+
+.homePicFive {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://ourrescue.org/assets/img/home-callout-thumbnail/14529042645b480f2af92f2785a6e327c058b9d874.jpeg") no-repeat;
+  background-size: cover; }
+
+.homePicFive:hover {
+  background: linear-gradient(transparent, transparent), url("http://ourrescue.org/assets/img/home-callout-thumbnail/14529042645b480f2af92f2785a6e327c058b9d874.jpeg") no-repeat;
+  background-size: cover; }
+
+.homePicSix {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://ourrescue.org/assets/img/home-callout-thumbnail/1456176434fac2fab4273e763c225eda69a7dc3c15.png") no-repeat center;
+  background-size: cover; }
+
+.homePicSix:hover {
+  background: linear-gradient(transparent, transparent), url("http://ourrescue.org/assets/img/home-callout-thumbnail/1456176434fac2fab4273e763c225eda69a7dc3c15.png") no-repeat center;
+  background-size: cover; }
+
+/*---------------------------*/
+.newsBox {
+  margin-top: 30px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  /*margin-bottom: -70px;*/
+  align-items: center; }
+
+.newsImages img {
+  width: 150px;
+  height: 110px;
+  background-size: cover; }
+
+@media (min-width: 1640px) {
+  .newsBox {
+    width: 80%; } }
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.topNavBar {
+  width: 100%;
+  height: 90px;
+  background-color: #1e1f21;
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 1%;
+  z-index: 10; }
+
+ul {
+  list-style-type: none; }
+
+.firstList {
+  display: flex;
+  padding-bottom: 15px;
+  width: 700px; }
+
+.topNavWords {
+  color: #8d8d8d;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: 'light';
+  line-height: 20px;
+  letter-spacing: 3px;
+  padding-left: 15px;
+  z-index: 10; }
+
+.topNavWords:nth-child(-n+4) {
+  border-right: 1px solid #6f7070;
+  padding-right: 15px; }
+
+.topNavIcons {
+  display: flex;
+  padding-right: 30px;
+  margin-left: 30px;
+  z-index: 10; }
+
+li .fa {
+  color: white;
+  padding-bottom: 13px;
+  padding-right: 30px;
+  transform: scale(1.6, 1.6); }
+
+.redDonate {
+  width: 100px;
+  height: 45px;
+  background-color: #f15645;
+  color: white;
+  font-family: 'Montserrat';
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+  z-index: 10; }
+
+.redDonate p {
+  padding-top: 13px; }
+
+.topFooterBox {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 3px;
+  flex-direction: column; }
+
+.subscribeBox {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 90px; }
+
+.subscribeBox p {
+  padding-bottom: 35px; }
+
+.inputBox {
+  width: 462px;
+  height: 62px;
+  background-color: #f5f5f5;
+  font-size: 22px;
+  padding: 20px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+  outline: none; }
+
+.subscribeButton {
+  color: white;
+  background-color: #fac03c;
+  width: 153px;
+  height: 62px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+  outline: none; }
+
+.followUs p {
+  margin-bottom: 30px; }
+
+.followUs button {
+  background-color: #fac03c;
+  text-decoration: none;
+  border: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition-duration: 2s; }
+
+.followUs button .fa {
+  color: white;
+  transform: scale(2.5, 2.5); }
+
+.followUs button:hover {
+  transform: rotate(360deg);
+  transition-duration: 2s; }
+
+.bottomFooterBox {
+  width: 100%;
+  height: 600px;
+  background-color: black; }
+
+.bottomTopWords {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-family: 'Montserrat'; }
+
+.bottomTopWords ul {
+  width: 210px; }
+
+.bottomTopWords p {
+  color: white;
+  padding-bottom: 50px;
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: bolder;
+  letter-spacing: 2px; }
+
+.bottomTopWords li {
+  color: #fac03c;
+  padding-bottom: 30px;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2px; }
+
+.bottomBottomWords {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  line-height: 18px;
+  width: 100%;
+  padding-bottom: 50px;
+  /*height: 100px;*/ }
+
+.faqList {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: center; }
+
+.fL {
+  padding-left: 15px; }
+
+.fL:nth-child(-n+2) {
+  border-right: 2px solid #6f7070;
+  padding-right: 15px; }
+
+.copyrightList {
+  display: flex;
+  justify-content: center; }
+
+.cL {
+  padding-left: 15px; }
+
+.copyrightList .fa {
+  color: white;
+  transform: scale(1, 1); }
+
+.cL:nth-child(-n+2) {
+  border-right: 2px solid #6f7070;
+  padding-right: 15px; }
+
+.fightTopSection h2 {
+  color: #fac03c;
+  font-family: 'Montserrat';
+  font-size: 35px;
+  width: 600px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  padding-bottom: 50px; }
+
+.fightTopSection {
+  background: url("../images/girl-child.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 800px; }
+
+.fightDonateSection {
+  display: flex;
+  width: 100%;
+  height: 800px;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Montserrat';
+  padding-right: 80px;
+  padding-left: 150px; }
+
+.fightDonateWords p {
+  width: 600px;
+  font-size: 28px;
+  text-align: justify;
+  line-height: 2;
+  letter-spacing: 2px;
+  color: white; }
+
+.fightDonateWords span {
+  font-weight: bolder; }
+
+.fightOptions {
+  width: 100%;
+  height: 700px; }
+
+.fightYellowBar {
+  width: 100%;
+  height: 60px;
+  background-color: #fac03c; }
+
+.fightYellowBar p {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: bolder;
+  padding-top: 20px; }
+
+.fightOptionBoxes {
+  height: 800px;
+  margin-left: 40px;
+  margin-top: 20px; }
+
+.fightOptionBoxes li {
+  margin: 5px;
+  background-color: #1e1f20;
+  display: inline-block;
+  width: 23.5%;
+  height: 35%; }
+
+.fightOptionBoxes p {
+  color: #fac03c;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 40px; }
+
+.fightBoxContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.fightBoxContent img {
+  width: 100px;
+  height: 80px;
+  transition: .3s; }
+
+.fightBoxContent img:hover {
+  transform: rotate(25deg);
+  transition: .3s; }
+
+.fightImagesSection {
+  width: 100%;
+  height: 500px;
+  display: flex; }
+
+.fightFirstImage {
+  background: url("../images/fight-girl1.jpg") no-repeat center;
+  background-size: cover;
+  width: 33.3%;
+  height: 500px;
+  transition: 3s; }
+
+.fightFirstImage:hover {
+  width: 100%;
+  transition: 3s; }
+
+.fightSecondImage {
+  background: url("../images/fight-girl2.jpeg") no-repeat center;
+  background-size: cover;
+  width: 33.3%;
+  height: 500px;
+  position: relative;
+  transition: 3s; }
+
+.fightSecondImage:hover {
+  width: 100%;
+  transition: 3s; }
+
+.fightThirdImage {
+  background: url("../images/fight-girl3.jpeg") no-repeat center;
+  background-size: cover;
+  width: 33.33%;
+  height: 500px;
+  position: relative;
+  transition: 3s; }
+
+.fightThirdImage:hover {
+  width: 100%;
+  transition: 3s; }
+
+.fightGreyBar {
+  width: 100%;
+  height: 100px;
+  background-color: lightgrey; }
+
+.storiesTopSection {
+  background: url("../images/smallChild.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  font-family: 'Montserrat';
+  letter-spacing: 2px; }
+
+.storiesMainWords {
+  padding-top: 200px;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10%; }
+
+.storiesTopSection h1 {
+  color: #fac03c;
+  font-size: 36px;
+  font-weight: bolder; }
+
+.storiesTopSection p {
+  font-size: 20px;
+  font-weight: lighter;
+  width: 40%;
+  text-align: justify;
+  line-height: 36px; }
+
+.storiesTopSection h2 {
+  font-weight: bolder;
+  font-size: 24px; }
+
+.storiesTopSection span {
+  color: #fac03c; }
+
+.storiesPanorama {
+  width: 100%;
+  /*margin: 0 auto;*/
+  height: 635px;
+  overflow: auto;
+  white-space: nowrap;
+  padding-top: 100px; }
+
+.storiesSliderImage {
+  display: inline-block;
+  background: url("http://ourrescue.org/assets/img/stories_slide.jpg") no-repeat;
+  height: 100%;
+  width: 4780px; }
+
+.storiesWhaleWatch {
+  width: 100%;
+  height: 1200px;
+  font-family: 'Montserrat';
+  letter-spacing: 2px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex; }
+
+.storiesWhaleWatch p {
+  width: 90%;
+  text-align: justify;
+  line-height: 30px;
+  font-size: 20px;
+  color: #414141; }
+
+.whaleInfo {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.whaleInfo h1 {
+  color: #fac03c;
+  font-size: 46px;
+  font-weight: bolder; }
+
+.whaleDetails {
+  display: flex; }
+
+.whaleDetails h2 {
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 18px;
+  color: #686867;
+  background-color: #fac03c;
+  margin-right: 5px;
+  font-size: 20px; }
+
+.whaleDetails h3 {
+  width: 200px;
+  height: 50px;
+  margin-right: 5px;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 18px;
+  color: #696968;
+  background-color: #c1c1c0;
+  font-size: 18px; }
+
+.whaleImages {
+  padding-top: 10%;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.whaleImageOne {
+  width: 100%;
+  height: 40%;
+  background: url("http://ourrescue.org/assets/img/page-thumbnail/146316598324a2dd122d681067f841f5bdcace99e5.png") no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.whaleImageTwo {
+  width: 100%;
+  height: 40%;
+  background: url("http://ourrescue.org/assets/img/page-thumbnail/1463166003430477e213ddb09d973a972d4b066ab2.png") no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.whaleImageButton {
+  width: 60px;
+  height: 60px;
+  background-color: #fac03c;
+  text-align: center;
+  padding-top: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
+.whaleImageButton .fa {
+  color: white; }
+
+.whaleVideo {
+  margin-left: 10%;
+  background: url("https://i.vimeocdn.com/video/567000763.webp?mw=1300&mh=731") no-repeat;
+  background-size: 100%;
+  width: 80%;
+  height: 800px;
+  margin-bottom: 20px; }
+
+.whaleStory {
+  width: 95%;
+  height: 1700px;
+  padding-left: 5%;
+  font-family: 'Montserrat';
+  letter-spacing: 2px;
+  line-height: 30px;
+  text-align: justify;
+  font-size: 20px;
+  color: #414141; }
+
+.whaleFullWords {
+  width: 100%; }
+
+.whaleBoxAndWords {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.whaleBoxAndWords p {
+  width: 70%; }
+
+.whaleYellowBox {
+  width: 28%;
+  height: 100%;
+  background-color: #fac03c;
+  padding: 60px 60px; }
+
+.whaleBoxWords {
+  width: 300px;
+  margin: auto; }
+
+.whaleBoxWords strong {
+  color: #ffffff;
+  text-align: justify;
+  font-size: 30px;
+  line-height: 50px; }
+
+.partnershipsSection {
+  background: url("../images/children.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  font-family: 'Montserrat';
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bolder; }
+
+.partnerImageBoxes {
+  width: 40%;
+  height: 80%; }
+
+#partnerImageOverlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  padding: 20px 40px; }
+
+.partnershipsSection h1 {
+  color: #fac03c;
+  font-size: 40px;
+  width: 100%;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  padding-bottom: 40px; }
+
+.partnershipsSection p {
+  width: 100%;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 2;
+  letter-spacing: 2px;
+  color: white;
+  padding-bottom: 30px; }
+
+.partnershipsSection h2 {
+  color: white;
+  font-size: 24px;
+  width: 100%;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  padding-bottom: 50px; }
+
+.partnerBlackButtons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 500px;
+  margin-left: 10%; }
+
+.imageFirstButton {
+  background: url("http://ourrescue.org/assets/img/rescue-icon.svg") no-repeat;
+  width: 79px;
+  height: 100px;
+  background-size: cover; }
+
+.imageFirstButton:hover {
+  transform: rotate(25deg); }
+
+.imageSecondButton {
+  background: url("http://ourrescue.org/assets/img/planning-icon.svg") no-repeat;
+  width: 110px;
+  height: 110px; }
+
+.imageSecondButton:hover {
+  transform: rotate(25deg); }
+
+.imageThirdButton {
+  background: url("http://ourrescue.org/assets/img/mindset-icon.svg") no-repeat;
+  width: 110px;
+  height: 110px; }
+
+.imageThirdButton:hover {
+  transform: rotate(25deg); }
+
+.imageFourthButton {
+  background: url("http://ourrescue.org/assets/img/organizations-icon.svg") no-repeat;
+  width: 150px;
+  height: 80px; }
+
+.imageFourthButton:hover {
+  transform: rotate(25deg); }
+
+.partnerButtons {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #1e1f20;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.partnerBlackButtons p {
+  color: #fac03c;
+  font-size: 22px;
+  line-height: 34px;
+  font-family: 'Montserrat';
+  /*font-weight: bold;*/
+  width: 200px;
+  height: 43px;
+  text-align: center;
+  padding: 15px; }
