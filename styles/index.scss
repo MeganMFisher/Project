@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import "styles/variables";
+
 .topNavBar {
     width: 100%;
     height: 90px;
@@ -25,7 +26,7 @@ ul {
 .topNavWords {
     color: #8d8d8d;
     font-size: 16px;
-    font-family: 'Montserrat';
+    font-family: $main-font;
     font-weight: 'light';
     line-height: 20px;
     letter-spacing: 3px;
@@ -59,7 +60,7 @@ li .fa {
     height: 45px;
     background-color: #f15645;
     color: white;
-    font-family: 'Montserrat';
+    font-family: $main-font;
     text-align: center;
     font-weight: bolder;
     font-size: 18px;
@@ -77,7 +78,7 @@ li .fa {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: $main-font;
     font-size: 20px;
     font-weight: bold;
     line-height: 22px;
@@ -111,7 +112,7 @@ li .fa {
 
 .subscribeButton {
     color: white;
-    background-color: #fac03c;
+    background-color: $main-yellow;
     width: 153px;
     height: 62px;
     font-size: 16px;
@@ -129,7 +130,7 @@ li .fa {
 }
 
 .followUs button{
-    background-color: #fac03c;
+    background-color: $main-yellow;
     text-decoration: none;
     border: none;
     width: 70px;
@@ -161,7 +162,7 @@ li .fa {
     justify-content: space-around;
     padding-top: 40px;
     padding-bottom: 30px;
-    font-family: 'Montserrat';
+    font-family: $main-font;
 
 }
 
@@ -181,7 +182,7 @@ li .fa {
 }
 
 .bottomTopWords li {
-    color: #fac03c;
+    color: $main-yellow;
     padding-bottom: 30px;
     font-size: 13px;
     line-height: 18px;
@@ -192,7 +193,7 @@ li .fa {
     color: white;
     display: flex;
     flex-direction: column;
-    font-family: 'Montserrat';
+    font-family: $main-font;
     font-size: 18px;
     line-height: 18px;
     width: 100%;

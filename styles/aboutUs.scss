@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import "styles/variables";
+
 #blackWords {
     color: black;
 }
 
 .sinceWords {
-    color: #fac03c;
-    font-family: 'Montserrat';
+    color: $main-yellow;
+    font-family: $main-font;
     font-size: 36px;
     letter-spacing: 2px;
     padding-left: 5%;
@@ -30,13 +31,13 @@
 }
 
 .foundedSection h2 {
-    font-family: 'Montserrat';
+    font-family: $main-font;
     font-size: 20px;
     letter-spacing: 2px;
 }
 
 .foundedSection p {
-    font-family: 'Montserrat';
+    font-family: $main-font;
     font-weight: lighter;
     letter-spacing: 2px;
     font-size: 18px;
@@ -61,8 +62,8 @@
     margin-top: 30px;
     width: 100%;
     height: 80px;
-    background-color: #fac03c;
-    font-family: 'Montserrat';
+    background-color: $main-yellow;
+    font-family: $main-font;
     font-size: 26px;
     letter-spacing: 2px;
     font-weight: bolder;
@@ -108,7 +109,7 @@
     float: right;
     padding-right: 100px;
     padding-top: 150px;
-    font-family: 'Montserrat';
+    font-family: $main-font;
     font-size: 30px;
     color: #222222;
     font-weight: bolder;
@@ -116,7 +117,7 @@
 
 .greyPromise p {
     color: #222222;
-    font-family: 'Montserrat';
+    font-family: $main-font;
     font-style: italic;
     font-size: 30px;
     width: 630px;
@@ -135,7 +136,7 @@
 }
 
 .picturePromise p {
-    font-family: 'Montserrat';
+    font-family: $main-font;
     font-style: italic;
     font-size: 30px;
     color: white;
@@ -148,13 +149,13 @@
 }
 
 .boldYellow {
-    color: #f6c647;
+    color: $main-yellow;
 }
 
 .yellowPromise {
     width: 100%;
     height: 330px;
-    background-color: #f6c647;
+    background-color: $main-yellow;
     display: flex;
     /*align-items: center;*/
 }
@@ -172,7 +173,7 @@ strong {
 
 .yellowPromise p {
     color: #222222;
-    font-family: 'Montserrat';
+    font-family: $main-font;
     font-style: italic;
     font-size: 30px;
     width: 630px;

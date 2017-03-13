@@ -1,3 +1,5 @@
+@import "styles/variables";
+
 .eventsSection {
     width: 80%;
     height: 900px;
@@ -21,7 +23,7 @@
 
 h1 {
     padding-top: 15px;
-    font-family: 'Montserrat';
+    font-family: $main-font;
     font-size: 24px;
     color: white;
     letter-spacing: 2px;
@@ -38,12 +40,12 @@ h1 {
 .eventsYellowHighlight {
     width: 100%;
     height: 100px;
-    background-color: #fac03c;
+    background-color: $main-yellow;
 }
 
 .eventsYellowHighlight h2 {
     color: white;
-    font-family: 'Montserrat';
+    font-family: $main-font;
     font-size: 24px;
     text-align: center;
     padding-top: 40px;

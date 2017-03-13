@@ -91,13 +91,12 @@ input, select {
 *, *:before, *:after {
   box-sizing: border-box; }
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 #blackWords {
   color: black; }
 
 .sinceWords {
   color: #fac03c;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 36px;
   letter-spacing: 2px;
   padding-left: 5%;
@@ -119,12 +118,12 @@ input, select {
   justify-content: space-between; }
 
 .foundedSection h2 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 20px;
   letter-spacing: 2px; }
 
 .foundedSection p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: lighter;
   letter-spacing: 2px;
   font-size: 18px;
@@ -146,7 +145,7 @@ input, select {
   width: 100%;
   height: 80px;
   background-color: #fac03c;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 26px;
   letter-spacing: 2px;
   font-weight: bolder;
@@ -186,14 +185,14 @@ input, select {
   float: right;
   padding-right: 100px;
   padding-top: 150px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 30px;
   color: #222222;
   font-weight: bolder; }
 
 .greyPromise p {
   color: #222222;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: italic;
   font-size: 30px;
   width: 630px;
@@ -210,7 +209,7 @@ input, select {
   display: flex; }
 
 .picturePromise p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: italic;
   font-size: 30px;
   color: white;
@@ -222,12 +221,12 @@ input, select {
   margin-left: 10%; }
 
 .boldYellow {
-  color: #f6c647; }
+  color: #fac03c; }
 
 .yellowPromise {
   width: 100%;
   height: 330px;
-  background-color: #f6c647;
+  background-color: #fac03c;
   display: flex;
   /*align-items: center;*/ }
 
@@ -242,7 +241,7 @@ strong {
 
 .yellowPromise p {
   color: #222222;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: italic;
   font-size: 30px;
   width: 630px;
@@ -286,7 +285,7 @@ strong {
 
 h1 {
   padding-top: 15px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 24px;
   color: white;
   letter-spacing: 2px; }
@@ -305,7 +304,7 @@ h1 {
 
 .eventsYellowHighlight h2 {
   color: white;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 24px;
   text-align: center;
   padding-top: 40px; }
@@ -376,7 +375,6 @@ h1 {
   background: url("http://www.slaveryfreeworld.org/wp-content/uploads/2015/10/Tim-Ballard-speaks-on-O.U.-R.--e1444254358522.jpg") no-repeat;
   background-size: cover; }
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 .secondNavBar {
   z-index: 10;
   width: 100%;
@@ -395,7 +393,7 @@ h1 {
 
 .secondList {
   color: white;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   display: flex; }
 
 .dropdown a {
@@ -418,7 +416,7 @@ h1 {
   /*display: inline-block;*/ }
 
 .dropbtn:hover {
-  border-bottom: 5px solid #f5c010; }
+  border-bottom: 5px solid #fac03c; }
 
 .dropdown-content {
   display: none;
@@ -449,7 +447,7 @@ h1 {
   padding: 19px;
   text-decoration: none;
   display: block;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   text-transform: uppercase; }
 
 .dropdown:hover .dropdown-content {
@@ -479,7 +477,7 @@ h1 {
   font-size: 55px;
   line-height: 51px;
   color: white;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: bold;
   text-shadow: 1px 1px 1px #000;
   padding-bottom: 13%;
@@ -511,8 +509,8 @@ video {
     background-size: cover;
 }*/
 .videoWords p {
-  color: #f5c010;
-  font-family: 'Montserrat';
+  color: #fac03c;
+  font-family: "Montserrat";
   font-size: 20px;
   line-height: 25px;
   letter-spacing: 2px;
@@ -549,14 +547,14 @@ video {
   margin-top: 80px; }
 
 .whiteWords h3 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 34px;
   color: #222222;
   line-height: 35px;
   font-weight: bolder; }
 
 .whiteWords h2 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 22px;
   color: #222222;
   line-height: 44px;
@@ -615,7 +613,7 @@ video {
   color: #fac03c;
   font-size: 22px;
   line-height: 34px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   /*font-weight: bold;*/
   width: 200px;
   height: 43px;
@@ -625,7 +623,7 @@ video {
 .rescueWords {
   font-size: 34px;
   line-height: 44px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   color: #222222;
   width: 100%;
   height: 300px;
@@ -666,7 +664,7 @@ video {
   background-attachment: fixed; }
 
 .yellowOperations p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 18px;
@@ -674,7 +672,7 @@ video {
   padding-bottom: 50px; }
 
 .yellowOperations h3 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 30px;
@@ -684,7 +682,7 @@ video {
   text-align: center; }
 
 .yellowOperations h1 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   text-align: center;
   font-weight: lighter;
   letter-spacing: 2px;
@@ -716,7 +714,7 @@ video {
   height: 90px;
   background-color: #1e1f21;
   color: white;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 26px;
   line-height: 44px;
   text-align: center;
@@ -738,7 +736,7 @@ video {
   height: 45%; }
 
 .homeImageBox h1 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 22px;
   letter-spacing: 2px;
   line-height: 25px;
@@ -747,7 +745,7 @@ video {
 
 .homeImageBox p {
   color: #fac03c;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 20px;
   letter-spacing: 2px;
   line-height: 25px;
@@ -821,7 +819,6 @@ video {
   .newsBox {
     width: 80%; } }
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 .topNavBar {
   width: 100%;
   height: 90px;
@@ -844,7 +841,7 @@ ul {
 .topNavWords {
   color: #8d8d8d;
   font-size: 16px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 'light';
   line-height: 20px;
   letter-spacing: 3px;
@@ -872,7 +869,7 @@ li .fa {
   height: 45px;
   background-color: #f15645;
   color: white;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   text-align: center;
   font-weight: bolder;
   font-size: 18px;
@@ -888,7 +885,7 @@ li .fa {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 20px;
   font-weight: bold;
   line-height: 22px;
@@ -960,7 +957,7 @@ li .fa {
   justify-content: space-around;
   padding-top: 40px;
   padding-bottom: 30px;
-  font-family: 'Montserrat'; }
+  font-family: "Montserrat"; }
 
 .bottomTopWords ul {
   width: 210px; }
@@ -984,7 +981,7 @@ li .fa {
   color: white;
   display: flex;
   flex-direction: column;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 18px;
   line-height: 18px;
   width: 100%;
@@ -1020,7 +1017,7 @@ li .fa {
 
 .fightTopSection h2 {
   color: #fac03c;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 35px;
   width: 600px;
   line-height: 1.5;
@@ -1039,7 +1036,7 @@ li .fa {
   height: 800px;
   align-items: center;
   justify-content: flex-start;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   padding-right: 80px;
   padding-left: 150px; }
 
@@ -1065,7 +1062,7 @@ li .fa {
 
 .fightYellowBar p {
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 22px;
   font-weight: bolder;
   padding-top: 20px; }
@@ -1084,7 +1081,7 @@ li .fa {
 
 .fightOptionBoxes p {
   color: #fac03c;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 20px;
   letter-spacing: 2px;
   line-height: 25px;
@@ -1158,7 +1155,7 @@ li .fa {
   background-size: cover;
   width: 100%;
   height: 900px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   letter-spacing: 2px; }
 
 .storiesMainWords {
@@ -1206,7 +1203,7 @@ li .fa {
 .storiesWhaleWatch {
   width: 100%;
   height: 1200px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   letter-spacing: 2px;
   padding-left: 5%;
   padding-right: 5%;
@@ -1303,7 +1300,7 @@ li .fa {
   width: 95%;
   height: 1700px;
   padding-left: 5%;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   letter-spacing: 2px;
   line-height: 30px;
   text-align: justify;
@@ -1342,7 +1339,7 @@ li .fa {
   background-size: cover;
   width: 100%;
   height: 800px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -1435,9 +1432,10 @@ li .fa {
   color: #fac03c;
   font-size: 22px;
   line-height: 34px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   /*font-weight: bold;*/
   width: 200px;
   height: 43px;
   text-align: center;
   padding: 15px; }
+
