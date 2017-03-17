@@ -690,7 +690,7 @@ video {
   font-weight: lighter;
   letter-spacing: 2px;
   font-size: 16px;
-  /*padding-bottom: 20px;*/ }
+  padding-top: 0; }
 
 .operationsList {
   display: flex;
