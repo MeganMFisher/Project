@@ -5,6 +5,7 @@ var config = require('./config.js');
 
 var app = express();
 app.use(bodyParser.json());
+app.use('/', express.static(__dirname + './dist'));
 
 var port = 3000;
 
