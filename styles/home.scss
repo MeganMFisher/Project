@@ -1,5 +1,9 @@
 @import "styles/variables";
 
+.animateDir {
+    // visibility: hidden;
+}
+
 .secondNavBar {
     z-index: 10;
     width: 100%;
@@ -138,6 +142,10 @@
     box-sizing: border-box;
     outline: none;
     margin-bottom: 50px;
+}
+
+.homeVideoButton:active {
+    background: white;
 }
 
 .fa-play {

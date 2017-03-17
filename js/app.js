@@ -8,8 +8,8 @@ angular.module('app', ['ui.router'])
     $stateProvider
         .state('home', {
             url: '/',
-            templateUrl: '../views/home.html'
-       
+            templateUrl: '../views/home.html',
+            controller: 'mainCtrl'
         })
 
         .state('aboutus',{
@@ -17,24 +17,6 @@ angular.module('app', ['ui.router'])
             templateUrl: '../views/aboutUs.html',
            
         })
-
-        // .state('ourpromise', {
-        //         url: '/ourpromise',
-        //         parent: 'aboutus',
-        //         templateUrl: "../views/ourpromise.html"
-        //     })
-
-        // .state('process', {
-        //         url: '/process',
-        //         parent: 'aboutus',
-        //         templateUrl: "../views/process.html"
-        //     })
-
-        // .state('team', {
-        //         url: '/team',
-        //         parent: 'aboutus',
-        //         templateUrl: "../views/team.html"
-        //     })
 
         .state('jointhefight', {
             url: '/jointhefight',   

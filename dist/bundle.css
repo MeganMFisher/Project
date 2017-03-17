@@ -496,6 +496,9 @@ h1 {
   outline: none;
   margin-bottom: 50px; }
 
+.homeVideoButton:active {
+  background: white; }
+
 .fa-play {
   transform: scale(3, 3);
   padding-left: 2px; }

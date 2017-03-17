@@ -1,4 +1,4 @@
-
+<animate-dir class='animateDir' ng-show='showVideo'></animate-dir>
 <div class='videoContainer'>
     <div class='videoOverlay'>
         <div class='blackOverlay'>
@@ -50,10 +50,9 @@
 
     <div class='videoWords'>
         <h2>WE EXIST TO RESCUE CHILDREN <br> FROM HUMAN TRAFFICKING.</h2>
-        <button><i class="fa fa-play" aria-hidden="true"></i></button>
+        <button class='homeVideoButton' ng-click='showVideo = !showVideo'><i class="fa fa-play" aria-hidden="true"></i></button>
         <div class='typingBox'>
         <p class="css-typing">Learn about our 2016 successes</p>
-        <!--<p class="css-typing">BREAK THE CHAIN</p>-->
         </div>
     </div>
      

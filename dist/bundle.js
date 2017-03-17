@@ -6,33 +6,13 @@ angular.module('app', ['ui.router']).config(function ($stateProvider, $urlRouter
 
     $stateProvider.state('home', {
         url: '/',
-        templateUrl: '../views/home.html'
-
+        templateUrl: '../views/home.html',
+        controller: 'mainCtrl'
     }).state('aboutus', {
         url: '/aboutus',
         templateUrl: '../views/aboutUs.html'
 
-    })
-
-    // .state('ourpromise', {
-    //         url: '/ourpromise',
-    //         parent: 'aboutus',
-    //         templateUrl: "../views/ourpromise.html"
-    //     })
-
-    // .state('process', {
-    //         url: '/process',
-    //         parent: 'aboutus',
-    //         templateUrl: "../views/process.html"
-    //     })
-
-    // .state('team', {
-    //         url: '/team',
-    //         parent: 'aboutus',
-    //         templateUrl: "../views/team.html"
-    //     })
-
-    .state('jointhefight', {
+    }).state('jointhefight', {
         url: '/jointhefight',
         templateUrl: '../views/joinTheFight.html'
 
@@ -68,7 +48,12 @@ angular.module('app').directive('navbar', function () {
 });
 'use strict';
 
-angular.module('app').controller('mainCtrl', function ($scope, mainSrv) {});
+angular.module('app').controller('mainCtrl', function ($scope, mainSrv) {
+
+  $scope.showVideo = false;
+
+  $scope.toggleVideo = function () {};
+});
 'use strict';
 
 angular.module('app').service('mainSrv', function () {});
