@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var massive = require('massive');
-var config = require('./config.js');
+// var config = require('./config.js');
 
 var app = express();
 app.use(bodyParser.json());
@@ -11,7 +11,8 @@ var port = 3000;
 
 
 var db = massive.connect({
-    connectionString: config.database
+    connectionString: process.env.connectionString
+
   },
   (err, localdb) => {
     db = localdb;
@@ -26,6 +27,6 @@ app.set('db', db);
 
 var db = app.get('db'); 
 
-  app.listen(port, function() {
-  console.log("Listening on port", port);
-});
+ app.listen(process.env.PORT || port, function() {
+    console.log('listening on port', this.address().port );
+  });
