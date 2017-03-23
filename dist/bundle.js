@@ -48,12 +48,34 @@ angular.module('app').directive('navbar', function () {
 });
 'use strict';
 
-angular.module('app').controller('mainCtrl', function ($scope, mainSrv) {
-
-  $scope.showVideo = false;
-
-  $scope.toggleVideo = function () {};
-});
+angular.module('app').service('mainSrv', function () {});
 'use strict';
 
-angular.module('app').service('mainSrv', function () {});
+angular.module('app').controller('mainCtrl', function ($scope, mainSrv) {
+
+    $scope.showVideo = false;
+
+    $scope.toggleVideo = function () {};
+
+    $(document).ready(function () {
+        $('#worldImageFadeIn').css('opacity', 0);
+
+        $('#blackButtonFadeIn').waypoint(function () {
+            $('#blackButtonFadeIn').addClass('animated fadeInRightBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#blackButtonFadeInRight').waypoint(function () {
+            $('#blackButtonFadeInRight').addClass('animated fadeInLeftBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#worldImageFadeIn').waypoint(function () {
+            $('#worldImageFadeIn').addClass('animated fadeInUp');
+        }, {
+            offset: '60%'
+        });
+    });
+});

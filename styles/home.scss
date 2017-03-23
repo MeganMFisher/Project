@@ -121,7 +121,7 @@
 
 .videoWords h2 {
     font-size: 55px;
-    line-height: 51px;
+    line-height: 65px;
     color: white;
     font-family: $main-font;
     font-weight: bold;
@@ -129,7 +129,8 @@
     padding-bottom: 13%;
     padding-top: 40px;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
+
 }
 
 .videoWords button {
@@ -153,16 +154,6 @@
     padding-left: 2px;
 }
 
-
-/*
-video {
-    position: fixed; right: 0; bottom: 0;
-    min-width: 100%; min-height: 100%;
-    width: auto; height: auto; z-index: -100;
-    background: url('http://ourrescue.org/media/OUR_Home.mp4') no-repeat;
-    background-size: cover;
-}*/
-
 .videoWords p {
     color: $main-yellow;;
     font-family: $main-font;
@@ -172,22 +163,22 @@ video {
     font-weight: bolder;
 }
 
-.typingBox {
-    width: 370px;
+// .typingBox {
+//     width: 370px;
    
-}
+// }
 
-.css-typing
-{
-    width: 50em;
-    white-space:nowrap;
-    overflow:hidden;
-    animation: type 20s steps(150, end);
-}
+// .css-typing
+// {
+//     width: 50em;
+//     white-space:nowrap;
+//     overflow:hidden;
+//     animation: type 20s steps(150, end);
+// }
 
-@keyframes type{
-    from { width: 0; }
-}
+// @keyframes type{
+//     from { width: 0; }
+// }
 
 
 
