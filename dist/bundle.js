@@ -10,24 +10,24 @@ angular.module('app', ['ui.router']).config(function ($stateProvider, $urlRouter
         controller: 'mainCtrl'
     }).state('aboutus', {
         url: '/aboutus',
-        templateUrl: '../views/aboutUs.html'
-
+        templateUrl: '../views/aboutUs.html',
+        controller: 'mainCtrl'
     }).state('jointhefight', {
         url: '/jointhefight',
-        templateUrl: '../views/joinTheFight.html'
-
+        templateUrl: '../views/joinTheFight.html',
+        controller: 'mainCtrl'
     }).state('ourstories', {
         url: '/ourstories',
-        templateUrl: '../views/ourStories.html'
-
+        templateUrl: '../views/ourStories.html',
+        controller: 'mainCtrl'
     }).state('partnerships', {
         url: '/partnerships',
-        templateUrl: '../views/partnerships.html'
-
+        templateUrl: '../views/partnerships.html',
+        controller: 'mainCtrl'
     }).state('eventsmedia', {
         url: '/eventsmedia',
-        templateUrl: '../views/eventsMedia.html'
-
+        templateUrl: '../views/eventsMedia.html',
+        controller: 'mainCtrl'
     });
 });
 'use strict';
@@ -46,9 +46,6 @@ angular.module('app').directive('navbar', function () {
         templateUrl: '../views/navbar.html'
     };
 });
-'use strict';
-
-angular.module('app').service('mainSrv', function () {});
 'use strict';
 
 angular.module('app').controller('mainCtrl', function ($scope, mainSrv) {
@@ -77,5 +74,56 @@ angular.module('app').controller('mainCtrl', function ($scope, mainSrv) {
         }, {
             offset: '60%'
         });
+
+        $('#joinFightFadeIn').waypoint(function () {
+            $('#joinFightFadeIn').addClass('animated fadeInRightBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#joinFightFadeIn1').waypoint(function () {
+            $('#joinFightFadeIn2').addClass('animated fadeInLeftBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#joinFightFadeIn2').waypoint(function () {
+            $('#joinFightFadeIn1').addClass('animated fadeInRightBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#joinFightFadeIn3').waypoint(function () {
+            $('#joinFightFadeIn3').addClass('animated fadeInLeftBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#joinFightFadeIn4').waypoint(function () {
+            $('#joinFightFadeIn4').addClass('animated fadeInRightBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#joinFightFadeIn5').waypoint(function () {
+            $('#joinFightFadeIn5').addClass('animated fadeInRightBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#joinFightFadeIn6').waypoint(function () {
+            $('#joinFightFadeIn6').addClass('animated fadeInLeftBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#joinFightFadeIn7').waypoint(function () {
+            $('#joinFightFadeIn7').addClass('animated fadeInLeftBig');
+        }, {
+            offset: '100%'
+        });
     });
 });
+'use strict';
+
+angular.module('app').service('mainSrv', function () {});

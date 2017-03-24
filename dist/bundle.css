@@ -997,6 +997,46 @@ li .fa {
   border-right: 2px solid #6f7070;
   padding-right: 15px; }
 
+.fadeInRightBig {
+  animation-duration: 3s;
+  animation-delay: .5s; }
+
+.rollIn {
+  animation-duration: 3s;
+  animation-delay: 1.5s; }
+
+#joinFightFadeIn {
+  animation-duration: 1.5s;
+  animation-delay: 1s; }
+
+#joinFightFadeIn1 {
+  animation-duration: 1.5s;
+  animation-delay: 2s; }
+
+#joinFightFadeIn2 {
+  animation-duration: 1.5s;
+  animation-delay: 1s; }
+
+#joinFightFadeIn3 {
+  animation-duration: 1.5s;
+  animation-delay: 2s; }
+
+#joinFightFadeIn4 {
+  animation-duration: 1.5s;
+  animation-delay: 2.5s; }
+
+#joinFightFadeIn5 {
+  animation-duration: 1.5s;
+  animation-delay: 1.5s; }
+
+#joinFightFadeIn6 {
+  animation-duration: 1.5s;
+  animation-delay: 2.5s; }
+
+#joinFightFadeIn7 {
+  animation-duration: 1.5s;
+  animation-delay: 1.5s; }
+
 .fightTopSection h2 {
   color: #fac03c;
   font-family: "Montserrat";
@@ -1059,7 +1099,8 @@ li .fa {
   background-color: #1e1f20;
   display: inline-block;
   width: 23.5%;
-  height: 35%; }
+  height: 35%;
+  box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, 0.5); }
 
 .fightOptionBoxes p {
   color: #fac03c;
