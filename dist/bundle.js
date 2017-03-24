@@ -122,6 +122,48 @@ angular.module('app').controller('mainCtrl', function ($scope, mainSrv) {
         }, {
             offset: '100%'
         });
+
+        $('#promiseFade').waypoint(function () {
+            $('#promiseFade').addClass('animated fadeInLeftBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#promiseFade1').waypoint(function () {
+            $('#promiseFade1').addClass('animated fadeInRightBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#promiseFade2').waypoint(function () {
+            $('#promiseFade2').addClass('animated fadeInLeftBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#partnerFadeIn').waypoint(function () {
+            $('#partnerFadeIn').addClass('animated fadeInRightBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#partnerFadeIn1').waypoint(function () {
+            $('#partnerFadeIn1').addClass('animated fadeInRightBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#partnerFadeIn2').waypoint(function () {
+            $('#partnerFadeIn2').addClass('animated fadeInLeftBig');
+        }, {
+            offset: '100%'
+        });
+
+        $('#partnerFadeIn3').waypoint(function () {
+            $('#partnerFadeIn3').addClass('animated fadeInLeftBig');
+        }, {
+            offset: '100%'
+        });
     });
 });
 'use strict';

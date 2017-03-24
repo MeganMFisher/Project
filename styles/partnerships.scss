@@ -1,5 +1,30 @@
 @import "styles/variables";
 
+.bounceInLeft {
+   animation-duration: 3s;
+    animation-delay: .5s; 
+}
+
+#partnerFadeIn {
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+}
+
+#partnerFadeIn1 {
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+
+#partnerFadeIn2 {
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+
+#partnerFadeIn3 {
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+}
+
 .partnershipsSection {
     background: url('../images/children.jpg') no-repeat center;
     background-size: cover;

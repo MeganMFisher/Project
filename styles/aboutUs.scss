@@ -1,5 +1,20 @@
 @import "styles/variables";
 
+#promiseFade {
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+#promiseFade1 {
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+#promiseFade2 {
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
 #blackWords {
     color: black;
 }

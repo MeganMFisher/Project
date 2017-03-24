@@ -91,6 +91,18 @@ input, select {
 *, *:before, *:after {
   box-sizing: border-box; }
 
+#promiseFade {
+  animation-duration: 2s;
+  animation-delay: 1s; }
+
+#promiseFade1 {
+  animation-duration: 2s;
+  animation-delay: 2s; }
+
+#promiseFade2 {
+  animation-duration: 2s;
+  animation-delay: 3s; }
+
 #blackWords {
   color: black; }
 
@@ -374,6 +386,9 @@ h1 {
 .eventsImageTwelve {
   background: url("http://www.slaveryfreeworld.org/wp-content/uploads/2015/10/Tim-Ballard-speaks-on-O.U.-R.--e1444254358522.jpg") no-repeat;
   background-size: cover; }
+
+.flip {
+  animation-delay: 1s; }
 
 .secondNavBar {
   z-index: 10;
@@ -1001,6 +1016,10 @@ li .fa {
   animation-duration: 3s;
   animation-delay: .5s; }
 
+.fadeInLeftBig {
+  animation-duration: 3s;
+  animation-delay: 1.5s; }
+
 .rollIn {
   animation-duration: 3s;
   animation-delay: 1.5s; }
@@ -1356,6 +1375,26 @@ li .fa {
   text-align: justify;
   font-size: 30px;
   line-height: 50px; }
+
+.bounceInLeft {
+  animation-duration: 3s;
+  animation-delay: .5s; }
+
+#partnerFadeIn {
+  animation-duration: 1.5s;
+  animation-delay: 2s; }
+
+#partnerFadeIn1 {
+  animation-duration: 1.5s;
+  animation-delay: 1s; }
+
+#partnerFadeIn2 {
+  animation-duration: 1.5s;
+  animation-delay: 1s; }
+
+#partnerFadeIn3 {
+  animation-duration: 1.5s;
+  animation-delay: 2s; }
 
 .partnershipsSection {
   background: url("../images/children.jpg") no-repeat center;
