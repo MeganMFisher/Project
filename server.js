@@ -5,7 +5,7 @@ var config = require('./config.js');
 
 var app = express();
 app.use(bodyParser.json());
-app.use('/', express.static(__dirname + './dist'));
+app.use('/', express.static(__dirname + '/public'));
 
 var port = 3000;
 
@@ -26,6 +26,6 @@ app.set('db', db);
 
 var db = app.get('db'); 
 
-  app.listen(port, function() {
-  console.log("Listening on port", port);
-});
+ app.listen(process.env.PORT || port, function() {
+    console.log('listening on port', this.address().port );
+  });

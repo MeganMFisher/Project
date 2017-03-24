@@ -9,7 +9,7 @@ gulp.task('js', function() {
     presets: ['es2015']
   }))
   .pipe(concat('bundle.js'))
-  .pipe(gulp.dest('./dist'));
+  .pipe(gulp.dest('./public/dist'));
 });
 
 gulp.task('css', function() {
@@ -20,7 +20,7 @@ gulp.task('css', function() {
     ])
   .pipe(sass())
   .pipe(concat('bundle.css'))
-  .pipe(gulp.dest('./dist'));
+  .pipe(gulp.dest('./dist'));  
 });
 
 gulp.task('default', ['js', 'css', 'watch']);
