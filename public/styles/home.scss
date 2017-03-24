@@ -23,8 +23,8 @@
     margin-left: 2%;
     background: url('http://ourrescue.org/assets/img/logo.svg') no-repeat center;
     /*background-size: cover;*/
-    width: 300px;
-    height: 150px;
+    width: 250px;
+    height: 100px;
 }
 
 .secondList {
@@ -36,7 +36,7 @@
 .dropdown a {
     margin-left: 30px;
     margin-right: 20px;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
     letter-spacing: 2px;
     text-decoration: none;
@@ -101,7 +101,7 @@
 }
 .videoContainer {
     width: 100%;
-    height: 1000px;
+    height: 900px;
     background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0,0, 0, 0.2)),url('../images/field3.jpg');
     /*background: url("http://hillcountryconservancy.org/wp-content/uploads/2016/05/Scenery.jpg");*/
     background-attachment: fixed;
