@@ -1018,7 +1018,7 @@ li .fa {
 
 .fadeInLeftBig {
   animation-duration: 3s;
-  animation-delay: 1.5s; }
+  animation-delay: .5s; }
 
 .rollIn {
   animation-duration: 3s;
