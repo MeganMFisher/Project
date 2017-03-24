@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var massive = require('massive');
-var config = require('./config.js');
+// var config = require('./config.js');
 
 var app = express();
 app.use(bodyParser.json());
@@ -11,7 +11,8 @@ var port = 3000;
 
 
 var db = massive.connect({
-    connectionString: config.database
+    connectionString: process.env.database
+    // connectionString: config.database || process.env.database
   },
   (err, localdb) => {
     db = localdb;
