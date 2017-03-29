@@ -281,9 +281,7 @@ strong {
   height: 720px;
   margin-top: 80px;
   margin-left: 10%;
-  /*background-color: #1e1f20;*/
-  background: url("http://community.shiftwear.com/uploads/monthly_2016_03/large.7006082-black-pattern-background-14095.jpg.4fd9741e51f62d5083590666d1a703f2.jpg") no-repeat;
-  background-size: cover;
+  background-color: #1e1f20;
   margin-bottom: 80px; }
 
 .eventsSection nav {
@@ -1081,7 +1079,7 @@ li .fa {
 
 .fightDonateWords p {
   width: 480px;
-  font-size: 22.4px;
+  font-size: 18px;
   text-align: justify;
   line-height: 2;
   letter-spacing: 2px;
@@ -1339,7 +1337,6 @@ li .fa {
 
 .whaleStory {
   width: 95%;
-  height: 1360px;
   padding-left: 5%;
   font-family: "Montserrat";
   letter-spacing: 2px;
@@ -1367,18 +1364,15 @@ li .fa {
   margin-bottom: 30px; }
 
 .whaleBoxWords {
-  width: 280px;
+  width: 220px;
   margin: auto; }
 
 .whaleBoxWords strong {
   color: #ffffff;
   text-align: justify;
-  font-size: 28px;
-  line-height: 40px; }
-
-.bounceInLeft {
-  animation-duration: 3s;
-  animation-delay: .5s; }
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 5px; }
 
 #partnerFadeIn {
   animation-duration: 1.5s;
