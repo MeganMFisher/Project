@@ -223,8 +223,8 @@ $main-yellow: #fac03c;
 }
 
 .crButton {
-    width: 134.4px;
-    height: 134.4px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     background-color: #1e1f20;
     display: flex;
@@ -234,9 +234,9 @@ $main-yellow: #fac03c;
 
 .imagecrButton {
     background: url("http://ourrescue.org/assets/img/rescue-icon.svg") no-repeat;
-    width: 79px;
-    height: 100px;
-    background-size: cover;
+    width: 63.2px;
+    height: 80px;
+    // background-size: cover;
 }
 
 .imagecrButton:hover {
@@ -254,8 +254,8 @@ $main-yellow: #fac03c;
 }
 
 .rpButton {
-    width: 134.4px;
-    height: 134.4px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     background-color: #1e1f20;
     display: flex;
@@ -264,15 +264,14 @@ $main-yellow: #fac03c;
 }
 
 .blackButtons p {
-    color: $main-yellow;
-    font-size: 17px;
-    line-height: 34px;
+    color: #fac03c;
+    font-size: 17.6px;
+    line-height: 25.6px;
     font-family: $main-font;
-    /*font-weight: bold;*/
-    width: 200px;
-    height: 43px;
+    width: 160px;
+    height: 34.4px;
     text-align: center;
-    padding: 15px;
+    padding: 12px;
 }
 
 .rescueWords {
@@ -328,9 +327,9 @@ $main-yellow: #fac03c;
     font-family: $main-font;
     font-weight: bold;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 22px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .yellowOperations h3 {
@@ -339,8 +338,8 @@ $main-yellow: #fac03c;
     letter-spacing: 1px;
     font-size: 24px;
     line-height: 34px;
-    padding-top: 432px;
-    padding-bottom: 40px;
+    padding-top: 32px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -349,7 +348,7 @@ $main-yellow: #fac03c;
     text-align: center;
     font-weight: lighter;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 0;
 }
 
@@ -381,7 +380,7 @@ $main-yellow: #fac03c;
 
 .slideshowTitle {
     width: 97%;
-    height: 36.8px;
+    height: 60px;
     background-color: #1e1f21;
     color: white;
     font-family: $main-font;
@@ -389,7 +388,7 @@ $main-yellow: #fac03c;
     letter-spacing: 2px;
     // line-height: 44px;
     text-align: center;
-    padding-top: 14.4px;
+    padding-top: 25px;
     margin-top: 64px;
 }
 
