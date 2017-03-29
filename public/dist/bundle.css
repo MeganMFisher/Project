@@ -1374,6 +1374,10 @@ li .fa {
   line-height: 40px;
   letter-spacing: 5px; }
 
+#partnerImageOverlay {
+  animation-duration: 1.5s;
+  animation-delay: .5; }
+
 #partnerFadeIn {
   animation-duration: 1.5s;
   animation-delay: 2s; }
