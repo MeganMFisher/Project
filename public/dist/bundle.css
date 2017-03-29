@@ -540,18 +540,18 @@ h1 {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-  margin-top: 64px; }
+  margin-top: 100px; }
 
 .whiteWords h3 {
   font-family: "Montserrat";
-  font-size: 24px;
+  font-size: 28px;
   color: #222222;
   line-height: 25px;
   font-weight: bolder; }
 
 .whiteWords h2 {
   font-family: "Montserrat";
-  font-size: 17px;
+  font-size: 20px;
   color: #222222;
   line-height: 35.2px;
   font-weight: lighter; }
@@ -562,8 +562,8 @@ h1 {
   align-items: center;
   width: 100%;
   height: 212.8px;
-  padding-bottom: 140px;
-  margin-top: 140px; }
+  padding-bottom: 90px;
+  margin-top: 120px; }
 
 .firstbButton {
   padding: 64px; }
@@ -616,7 +616,7 @@ h1 {
   padding: 12px; }
 
 .rescueWords {
-  font-size: 24px;
+  font-size: 28px;
   line-height: 27.2px;
   font-family: "Montserrat";
   color: #222222;
@@ -629,7 +629,7 @@ h1 {
   font-weight: bolder; }
 
 .gridImage {
-  margin-top: 116px;
+  margin-top: 90px;
   background: url("http://ourrescue.org/assets/img/homepage_map_grid.svg") no-repeat center;
   background-size: cover;
   width: 100%;
