@@ -48,6 +48,9 @@ angular.module('app').directive('navbar', function () {
 });
 'use strict';
 
+angular.module('app').service('mainSrv', function () {});
+'use strict';
+
 angular.module('app').controller('mainCtrl', function ($scope, mainSrv) {
 
     $scope.showVideo = false;
@@ -166,6 +169,3 @@ angular.module('app').controller('mainCtrl', function ($scope, mainSrv) {
         });
     });
 });
-'use strict';
-
-angular.module('app').service('mainSrv', function () {});

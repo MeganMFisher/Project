@@ -399,6 +399,13 @@ h1 {
   align-items: center;
   position: relative; }
 
+.navMainLogo {
+  margin-left: 2%;
+  background: url("http://ourrescue.org/assets/img/logo.svg") no-repeat center;
+  /*background-size: cover;*/
+  width: 231px;
+  height: 69px; }
+
 .secondList {
   color: white;
   font-family: "Montserrat";
@@ -432,7 +439,7 @@ h1 {
   background-color: #58585a;
   max-width: 224px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  margin-top: 7px;
+  margin-top: 10px;
   padding-top: 12px;
   padding-bottom: 12px;
   z-index: 1;
@@ -442,10 +449,10 @@ h1 {
   transform: translate(-33.6px); }
 
 #two {
-  transform: translate(-25.6px); }
+  transform: translate(-22px); }
 
 #three {
-  transform: translate(-32px); }
+  transform: translate(-23px); }
 
 #four {
   right: 0; }
@@ -532,7 +539,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 30px;
   margin-top: 64px; }
 
 .whiteWords h3 {
@@ -555,7 +562,8 @@ h1 {
   align-items: center;
   width: 100%;
   height: 212.8px;
-  /*padding-bottom: 200px;*/ }
+  padding-bottom: 140px;
+  margin-top: 140px; }
 
 .firstbButton {
   padding: 64px; }
@@ -591,7 +599,7 @@ h1 {
 
 .rpButton {
   width: 134.4px;
-  height: 1344px;
+  height: 134.4px;
   border-radius: 50%;
   background-color: #1e1f20;
   display: flex;
@@ -623,7 +631,7 @@ h1 {
   font-weight: bolder; }
 
 .gridImage {
-  margin-top: 56px;
+  margin-top: 116px;
   background: url("http://ourrescue.org/assets/img/homepage_map_grid.svg") no-repeat center;
   background-size: cover;
   width: 100%;
@@ -634,7 +642,7 @@ h1 {
 
 .worldImage {
   position: absolute;
-  margin-top: 24px;
+  margin-top: 84px;
   /*margin-top: -60px;*/
   background: url("http://ourrescue.org/assets/img/homepage_map.png") no-repeat center;
   background-size: cover;
@@ -1267,10 +1275,10 @@ li .fa {
 
 .whaleDetails h2 {
   width: 200px;
-  height: 40px;
+  height: 50px;
   text-align: center;
   font-weight: bolder;
-  padding-top: 14.4px;
+  padding-top: 17px;
   color: #686867;
   background-color: #fac03c;
   margin-right: 4px;
@@ -1282,10 +1290,10 @@ li .fa {
   margin-right: 4px;
   text-align: center;
   font-weight: bolder;
-  padding-top: 14.4px;
+  padding-top: 17px;
   color: #696968;
   background-color: #c1c1c0;
-  font-size: 14.4px; }
+  font-size: 16px; }
 
 .whaleImages {
   padding-top: 10%;
@@ -1323,6 +1331,7 @@ li .fa {
   color: white; }
 
 .whaleVideo {
+  margin-top: 16px;
   margin-left: 10%;
   background: url("https://i.vimeocdn.com/video/567000763.webp?mw=1300&mh=731") no-repeat;
   background-size: 100%;
@@ -1356,16 +1365,17 @@ li .fa {
   width: 28%;
   height: 100%;
   background-color: #fac03c;
-  padding: 48px 48px; }
+  padding: 48px 48px;
+  margin-bottom: 30px; }
 
 .whaleBoxWords {
-  width: 240px;
+  width: 280px;
   margin: auto; }
 
 .whaleBoxWords strong {
   color: #ffffff;
   text-align: justify;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 40px; }
 
 .bounceInLeft {

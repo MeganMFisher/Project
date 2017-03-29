@@ -21,13 +21,13 @@ $main-yellow: #fac03c;
     position: relative;
 }
 
-// .navMainLogo {
-//     margin-left: 2%;
-//     background: url('http://ourrescue.org/assets/img/logo.svg') no-repeat center;
-//     /*background-size: cover;*/
-//     width: 231px;
-//     height: 69px;
-// }
+.navMainLogo {
+    margin-left: 2%;
+    background: url('http://ourrescue.org/assets/img/logo.svg') no-repeat center;
+    /*background-size: cover;*/
+    width: 231px;
+    height: 69px;
+}
 
 .secondList {
     color: white;
@@ -66,7 +66,7 @@ $main-yellow: #fac03c;
     background-color: #58585a;
     max-width: 224px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    margin-top: 7px;
+    margin-top: 10px;
     padding-top: 12px;
     padding-bottom: 12px;
     z-index: 1;
@@ -78,11 +78,11 @@ $main-yellow: #fac03c;
 }
 
 #two {
-    transform: translate(-25.6px);
+    transform: translate(-22px);
 }
 
 #three {
-    transform: translate(-32px);
+    transform: translate(-23px);
 }
 
 #four {
@@ -184,7 +184,7 @@ $main-yellow: #fac03c;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
     margin-top: 64px;
 }
 
@@ -210,7 +210,8 @@ $main-yellow: #fac03c;
     align-items: center;
     width: 100%;
     height: 212.8px;
-    /*padding-bottom: 200px;*/
+    padding-bottom: 140px;
+    margin-top: 140px;
 }
 
 .firstbButton {
@@ -254,7 +255,7 @@ $main-yellow: #fac03c;
 
 .rpButton {
     width: 134.4px;
-    height: 1344px;
+    height: 134.4px;
     border-radius: 50%;
     background-color: #1e1f20;
     display: flex;
@@ -290,7 +291,7 @@ $main-yellow: #fac03c;
 }
 
 .gridImage {
-    margin-top: 56px;
+    margin-top: 116px;
     background: url('http://ourrescue.org/assets/img/homepage_map_grid.svg') no-repeat center;
     background-size: cover;
     width: 100%;
@@ -302,7 +303,7 @@ $main-yellow: #fac03c;
 
 .worldImage {
     position: absolute;
-    margin-top: 24px;
+    margin-top: 84px;
     /*margin-top: -60px;*/
     background: url('http://ourrescue.org/assets/img/homepage_map.png') no-repeat center;
     background-size: cover;
