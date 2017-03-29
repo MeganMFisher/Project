@@ -4,13 +4,13 @@
     background: url('../images/smallChild.jpg') no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 900px;
+    height: 720px;
     font-family: $main-font;
     letter-spacing: 2px;
 }
 
 .storiesMainWords {
-    padding-top: 200px;
+    padding-top: 160px;
     width: 100%;
     height: 80%;
     display: flex;
@@ -21,21 +21,21 @@
 
 .storiesTopSection h1 {
     color: $main-yellow;
-    font-size: 36px;
+    font-size: 28.8px;
     font-weight: bolder;
 }
 
 .storiesTopSection p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: lighter;
     width: 40%;
     text-align: justify;
-    line-height: 36px;
+    line-height: 28.8px;
 }
 
 .storiesTopSection h2 {
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 19.2px;
 }
 
 .storiesTopSection span {
@@ -45,10 +45,10 @@
 .storiesPanorama {
     width: 100%;
     /*margin: 0 auto;*/
-    height: 635px;
+    height: 508px;
     overflow: auto;
     white-space: nowrap;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 
@@ -56,12 +56,12 @@
     display: inline-block;
     background: url('http://ourrescue.org/assets/img/stories_slide.jpg') no-repeat;
     height: 100%;
-    width: 4780px;
+    width: 3824px;
 }
 
 .storiesWhaleWatch {
     width: 100%;
-    height: 1200px;
+    height: 960px;
     font-family: $main-font;
     letter-spacing: 2px;
     padding-left: 5%;
@@ -72,8 +72,8 @@
 .storiesWhaleWatch p {
     width: 90%;
     text-align: justify;
-    line-height: 30px;
-    font-size: 20px;
+    line-height: 24px;
+    font-size: 16px;
     color: #414141;
 }
 
@@ -87,7 +87,7 @@
 
 .whaleInfo h1 {
     color: $main-yellow;
-    font-size: 46px;
+    font-size: 36.8px;
     font-weight: bolder;
 }
 
@@ -96,27 +96,27 @@
 }
 
 .whaleDetails h2 {
-    width: 250px;
-    height: 50px;
+    width: 200px;
+    height: 40px;
     text-align: center;
     font-weight: bolder;
-    padding-top: 18px;
+    padding-top: 14.4px;
     color: #686867;
     background-color: $main-yellow; 
-    margin-right: 5px;
-    font-size: 20px;
+    margin-right: 4px;
+    font-size: 16px;
 }
 
 .whaleDetails h3 {
-    width: 200px;
+    width: 160px;
     height: 50px;
-    margin-right: 5px;
+    margin-right: 4px;
     text-align: center;
     font-weight: bolder;
-    padding-top: 18px;
+    padding-top: 14.4px;
     color: #696968;
     background-color: #c1c1c0; 
-    font-size: 18px;
+    font-size: 14.4px;
 }
 
 .whaleImages {
@@ -145,11 +145,11 @@
 }
 
 .whaleImageButton {
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
     background-color: $main-yellow;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 4px;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -165,19 +165,19 @@
     background: url('https://i.vimeocdn.com/video/567000763.webp?mw=1300&mh=731') no-repeat;
     background-size: 100%;
     width: 80%;
-    height: 800px;
-    margin-bottom: 20px;
+    height: 640px;
+    margin-bottom: 16px;
 }
 
 .whaleStory {
     width: 95%;
-    height: 1700px;
+    height: 1360px;
     padding-left: 5%;
     font-family: $main-font;
     letter-spacing: 2px;
-    line-height: 30px;
+    line-height: 24px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 16px;
     color: #414141;
 }
 
@@ -199,20 +199,20 @@
     width: 28%;
     height: 100%;
     background-color: $main-yellow;
-    padding: 60px 60px;
+    padding: 48px 48px;
 
 }
 
 .whaleBoxWords {
-    width: 300px;
+    width: 240px;
     margin: auto;
 }
 
 .whaleBoxWords strong {
     color: #ffffff;
     text-align: justify;
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 24px;
+    line-height: 40px;
 
 }
 

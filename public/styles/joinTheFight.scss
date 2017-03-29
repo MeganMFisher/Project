@@ -59,35 +59,35 @@
 .fightTopSection h2 {
     color: $main-yellow;
     font-family: $main-font;
-    font-size: 35px;
-    width: 600px;
+    font-size: 28px;
+    width: 480px;
     line-height: 1.5;
     letter-spacing: 2px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .fightTopSection {
     background: url('../images/girl-child.png') no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 640px;
 
 }
 .fightDonateSection {
     display: flex;
     width: 100%;
-    height: 800px;
+    height: 640px;
     align-items: center;
     justify-content: flex-start;
     font-family: $main-font;
-    padding-right: 80px;
-    padding-left: 150px;
+    padding-right: 64px;
+    padding-left: 120px;
 }
 
 
 .fightDonateWords p {
-    width: 600px;
-    font-size: 28px;
+    width: 480px;
+    font-size: 22.4px;
     text-align: justify;
     line-height: 2;
     letter-spacing: 2px;
@@ -101,31 +101,31 @@
 
 .fightOptions {
     width: 100%;
-    height: 700px;
+    height: 560px;
 }
 
 .fightYellowBar {
     width: 100%;
-    height: 60px;
+    height: 48px;
     background-color: $main-yellow;
 }
 
 .fightYellowBar p {
     text-align: center;
     font-family: $main-font;
-    font-size: 22px;
+    font-size: 17.6px;
     font-weight: bolder;
-    padding-top: 20px;
+    padding-top: 16px;
 }
 
 .fightOptionBoxes {
-    height: 800px;
-    margin-left: 40px;
-    margin-top: 20px;
+    height: 640px;
+    margin-left: 32px;
+    margin-top: 16px;
 }
 
 .fightOptionBoxes li {
-    margin: 5px;
+    margin: 4px;
     background-color: #1e1f20;
     display: inline-block;
     width: 23.5%;
@@ -137,11 +137,11 @@
 .fightOptionBoxes p {
     color: $main-yellow;
     font-family: $main-font;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 2px;
-    line-height: 25px;
+    line-height: 20px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 32px;
 }
 
 .fightBoxContent {
@@ -155,8 +155,8 @@
 }
 
 .fightBoxContent img {
-    width: 100px;
-    height: 80px;
+    width: 80px;
+    height: 64px;
     transition: .3s;
 
 }
@@ -168,7 +168,7 @@
 
 .fightImagesSection {
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
 }
 
@@ -176,7 +176,7 @@
     background: url('../images/fight-girl1.jpg') no-repeat center;
     background-size: cover;
     width: 33.3%;
-    height: 500px;
+    height: 400px;
     transition: 3s;
 }
 
@@ -189,7 +189,7 @@
     background: url('../images/fight-girl2.jpeg') no-repeat center;
     background-size: cover;
      width: 33.3%;
-    height: 500px;
+    height: 400px;
     position: relative;
     transition: 3s;
 }
@@ -203,7 +203,7 @@
     background: url('../images/fight-girl3.jpeg') no-repeat center;
     background-size: cover;
      width: 33.33%;
-    height: 500px;
+    height: 400px;
     position: relative;
     transition: 3s;
 }
@@ -214,6 +214,6 @@
 }
 .fightGreyBar {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: lightgrey;
 }

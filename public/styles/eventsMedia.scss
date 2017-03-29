@@ -2,19 +2,19 @@
 
 .eventsSection {
     width: 80%;
-    height: 900px;
-    margin-top: 100px;
+    height: 720px;
+    margin-top: 80px;
     margin-left: 10%;
     /*background-color: #1e1f20;*/
     background: url('http://community.shiftwear.com/uploads/monthly_2016_03/large.7006082-black-pattern-background-14095.jpg.4fd9741e51f62d5083590666d1a703f2.jpg') no-repeat;
     background-size: cover;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .eventsSection nav {
     width: 95%;
     margin-left: 2.5%;
-    height: 80px;
+    height: 64px;
     display: flex;
     justify-content: space-between;
     border-bottom: .01px solid #6f7070;
@@ -22,38 +22,38 @@
 }
 
 h1 {
-    padding-top: 15px;
+    padding-top: 12px;
     font-family: $main-font;
-    font-size: 24px;
+    font-size: 19.2px;
     color: white;
     letter-spacing: 2px;
 }
 
 .archiveBox {
     text-align: center;
-    font-size: 20px;
-    width: 280px;
-    height: 50px;
+    font-size: 16px;
+    width: 224px;
+    height: 40px;
     background-color: #313131;
 }
 
 .eventsYellowHighlight {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: $main-yellow;
 }
 
 .eventsYellowHighlight h2 {
     color: white;
     font-family: $main-font;
-    font-size: 24px;
+    font-size: 19.2px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 32px;
 }
 
 .eventsImagesBox {
      width: 90%;
-    height: 700px;
+    height: 560px;
     margin-left: 5%;
     background-color: #f5f5f5;
 
@@ -63,11 +63,11 @@ h1 {
     padding-left: 12%;
     padding-top: 5%;
      width: 90%;
-    height: 700px;
+    height: 560px;
 }
 
 .eventsImages li {
-    margin: 5px;
+    margin: 4px;
     display: inline-block;
     width: 23%;
     height: 28%;

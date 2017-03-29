@@ -18,8 +18,8 @@ ul {
 
 .firstList {
     display: flex;
-    padding-bottom: 15px;
-    width: 700px;
+    padding-bottom: 12px;
+    width: 560px;
     
 }
 
@@ -30,27 +30,27 @@ ul {
     font-weight: 'light';
     line-height: 20px;
     letter-spacing: 3px;
-    padding-left: 15px;
+    padding-left: 12px;
     z-index: 10;
     
 }
 
 .topNavWords:nth-child(-n+4) {
     border-right: 1px solid #6f7070;
-    padding-right: 15px;
+    padding-right: 12px;
 }
 
 .topNavIcons {
     display: flex;
-    padding-right: 30px;
-    margin-left:30px;
+    padding-right: 24px;
+    margin-left: 24px;
     z-index: 10;
 }
 
 li .fa {
     color: white;
-    padding-bottom: 13px;
-    padding-right: 30px;
+    padding-bottom: 10.4px;
+    padding-right: 24px;
     transform: scale(1, 1);
     
 }
@@ -68,12 +68,12 @@ li .fa {
 }
 
 .redDonate p {
-    padding-top: 13px;
+    padding-top: 10.4px;
 }
 
 .topFooterBox {
     width: 100%;
-    height: 600px;
+    height: 480px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,20 +88,20 @@ li .fa {
 
 .subscribeBox {
     width: 100%;
-    height: 120px;
-    margin-bottom: 90px;
+    height: 96px;
+    margin-bottom: 57.6px;
 }
 
 .subscribeBox p {
-    padding-bottom: 35px;
+    padding-bottom: 28px;
 }
 
 .inputBox {
-    width: 462px;
-    height: 62px;
+    width: 369.6px;
+    height: 49.6px;
     background-color: #f5f5f5;
     font-size: 22px;
-    padding: 20px;
+    padding: 16px;
     letter-spacing: 3px;
     text-decoration: none;
     border: none;
@@ -113,8 +113,8 @@ li .fa {
 .subscribeButton {
     color: white;
     background-color: $main-yellow;
-    width: 153px;
-    height: 62px;
+    width: 122.4px;
+    height: 49.6px;
     font-size: 16px;
     letter-spacing: 2px;
     font-weight: bolder;
@@ -125,7 +125,7 @@ li .fa {
 }
 
 .followUs p {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
     
 }
 
@@ -133,17 +133,17 @@ li .fa {
     background-color: $main-yellow;
     text-decoration: none;
     border: none;
-    width: 70px;
-    height: 70px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
     transition-duration: 2s
 }
 
 .followUs button .fa{
     color: white;
-    transform: scale(2.5, 2.5);
+    transform: scale(2, 2);
 }
 
 .followUs button:hover {
@@ -153,28 +153,28 @@ li .fa {
 
 .bottomFooterBox {
     width: 100%;
-    height: 600px;
+    height: 480px;
     background-color: black;
 }
 
 .bottomTopWords {
     display: flex;
     justify-content: space-around;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 32px;
+    padding-bottom: 24px;
     font-family: $main-font;
 
 }
 
 .bottomTopWords ul {
-    width: 210px;
+    width: 168px;
 }
 
 
 
 .bottomTopWords p {
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     font-size: 12px;
     line-height: 13px;
     font-weight: bolder;
@@ -183,7 +183,7 @@ li .fa {
 
 .bottomTopWords li {
     color: $main-yellow;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
     font-size: 13px;
     line-height: 18px;
     letter-spacing: 2px;
@@ -197,23 +197,23 @@ li .fa {
     font-size: 18px;
     line-height: 18px;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     /*height: 100px;*/
 }
 
 .faqList {
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
     justify-content: center;
 }
 
 .fL {
-    padding-left: 15px;
+    padding-left: 12px;
 }
 
 .fL:nth-child(-n+2) {
     border-right: 2px solid #6f7070;
-    padding-right: 15px;
+    padding-right: 12px;
 }
 
 .copyrightList {
@@ -222,7 +222,7 @@ li .fa {
 }
 
 .cL {
-    padding-left: 15px;
+    padding-left: 12px;
 }
 
 .copyrightList .fa {
@@ -232,6 +232,6 @@ li .fa {
 
 .cL:nth-child(-n+2) {
     border-right: 2px solid #6f7070;
-    padding-right: 15px;
+    padding-right: 12px;
 }
 
