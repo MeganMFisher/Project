@@ -4,7 +4,7 @@ const babel = require('gulp-babel');
 const sass = require('gulp-sass');
 
 gulp.task('js', function() {
-  gulp.src(['./js/app.js', './js/**/*.js'])
+  gulp.src(['./public/js/app.js', './public/js/**/*.js'])
   .pipe(babel({
     presets: ['es2015']
   }))
@@ -14,17 +14,17 @@ gulp.task('js', function() {
 
 gulp.task('css', function() {
   gulp.src([ 
-    './reset.css', 
-    './styles/**/*.css',
-    './styles/**/*.scss'
+    './public/reset.css', 
+    './public/styles/*.css',
+    './public/styles/*.scss'
     ])
   .pipe(sass())
   .pipe(concat('bundle.css'))
-  .pipe(gulp.dest('./dist'));  
+  .pipe(gulp.dest('./public/dist'));  
 });
 
 gulp.task('default', ['js', 'css', 'watch']);
 
 gulp.task('watch', function(){
-  return gulp.watch(['./index.html', './js/**/*.js', './styles/**/*.css', './styles/**/*.scss'], ['js', 'css']);
+  return gulp.watch(['./public/index.html', './public/js/**/*.js', './public/styles/**/*.css', './public/styles/**/*.scss'], ['js', 'css']);
 })

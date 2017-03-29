@@ -1,4 +1,6 @@
-@import "styles/variables";
+$main-font: 'Montserrat';
+
+$main-yellow: #fac03c;
 
 .animateDir {
     // visibility: hidden;
@@ -19,13 +21,13 @@
     position: relative;
 }
 
-.navMainLogo {
-    margin-left: 2%;
-    background: url('http://ourrescue.org/assets/img/logo.svg') no-repeat center;
-    /*background-size: cover;*/
-    width: 231px;
-    height: 69px;
-}
+// .navMainLogo {
+//     margin-left: 2%;
+//     background: url('http://ourrescue.org/assets/img/logo.svg') no-repeat center;
+//     /*background-size: cover;*/
+//     width: 231px;
+//     height: 69px;
+// }
 
 .secondList {
     color: white;

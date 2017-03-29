@@ -109,11 +109,11 @@ input, select {
 .sinceWords {
   color: #fac03c;
   font-family: "Montserrat";
-  font-size: 36px;
+  font-size: 30px;
   letter-spacing: 2px;
   padding-left: 5%;
-  padding-bottom: 30px;
-  padding-top: 80px; }
+  padding-bottom: 24px;
+  padding-top: 64px; }
 
 .foundedSection {
   display: flex;
@@ -124,41 +124,41 @@ input, select {
 .foundedWords {
   /*padding-top: 10%;*/
   width: 60%;
-  height: 1000px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
 
 .foundedSection h2 {
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 2px; }
 
 .foundedSection p {
   font-family: "Montserrat";
   font-weight: lighter;
   letter-spacing: 2px;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 14px;
+  line-height: 22px;
   color: #2d2d2d;
-  width: 750px;
+  width: 600px;
   text-align: justify; }
 
 .foundedImage {
   background: url("../images/tim.png") no-repeat center;
   background-size: cover;
-  width: 700px;
-  height: 700px;
-  margin-top: -80px; }
+  width: 560px;
+  height: 560px;
+  margin-top: -64px; }
 
 /*-------------------------------*/
 .routerNav {
-  margin-top: 30px;
+  margin-top: 24px;
   width: 100%;
-  height: 80px;
+  height: 64px;
   background-color: #fac03c;
   font-family: "Montserrat";
-  font-size: 26px;
+  font-size: 20.8px;
   letter-spacing: 2px;
   font-weight: bolder;
   display: flex;
@@ -181,7 +181,7 @@ input, select {
 
 .greyPromise {
   width: 100%;
-  height: 330px;
+  height: 264px;
   background-color: #e1e1e1;
   display: flex;
   justify-content: space-around;
@@ -195,10 +195,10 @@ input, select {
 
 .greyPromise h1 {
   float: right;
-  padding-right: 100px;
-  padding-top: 150px;
+  padding-right: 80px;
+  padding-top: 120px;
   font-family: "Montserrat";
-  font-size: 30px;
+  font-size: 24px;
   color: #222222;
   font-weight: bolder; }
 
@@ -206,16 +206,16 @@ input, select {
   color: #222222;
   font-family: "Montserrat";
   font-style: italic;
-  font-size: 30px;
-  width: 630px;
-  height: 300px;
+  font-size: 24px;
+  width: 504px;
+  height: 240px;
   font-weight: lighter;
-  line-height: 45px;
-  padding-top: 60px; }
+  line-height: 36px;
+  padding-top: 48px; }
 
 .picturePromise {
   width: 100%;
-  height: 330px;
+  height: 264px;
   background-image: url("http://ourrescue.org/assets/img/about_promise_team_background.png");
   background-size: cover;
   display: flex; }
@@ -223,13 +223,13 @@ input, select {
 .picturePromise p {
   font-family: "Montserrat";
   font-style: italic;
-  font-size: 30px;
+  font-size: 24px;
   color: white;
-  width: 630px;
-  height: 300px;
-  line-height: 45px;
+  width: 506px;
+  height: 240px;
+  line-height: 36px;
   font-weight: lighter;
-  padding-top: 70px;
+  padding-top: 56px;
   margin-left: 10%; }
 
 .boldYellow {
@@ -237,7 +237,7 @@ input, select {
 
 .yellowPromise {
   width: 100%;
-  height: 330px;
+  height: 264px;
   background-color: #fac03c;
   display: flex;
   /*align-items: center;*/ }
@@ -248,18 +248,18 @@ strong {
 .yellowPromiseImage {
   background: url("http://ourrescue.org/assets/img/about_promise_donate_background.png") no-repeat center;
   background-size: cover;
-  width: 700px;
+  width: 560px;
   height: 100%; }
 
 .yellowPromise p {
   color: #222222;
   font-family: "Montserrat";
   font-style: italic;
-  font-size: 30px;
-  width: 630px;
-  height: 300px;
-  line-height: 45px;
-  padding-top: 90px;
+  font-size: 24px;
+  width: 506px;
+  height: 240px;
+  line-height: 36px;
+  padding-top: 72px;
   font-weight: lighter; }
 
 .aboutUsDonate {
@@ -269,7 +269,7 @@ strong {
 @media (min-width: 1800px) {
   .foundedImage {
     width: 50%;
-    height: 900px; }
+    height: 720px; }
   .foundedSection {
     padding-left: 10%;
     padding-right: 10%; }
@@ -278,52 +278,52 @@ strong {
 
 .eventsSection {
   width: 80%;
-  height: 900px;
-  margin-top: 100px;
+  height: 720px;
+  margin-top: 80px;
   margin-left: 10%;
   /*background-color: #1e1f20;*/
   background: url("http://community.shiftwear.com/uploads/monthly_2016_03/large.7006082-black-pattern-background-14095.jpg.4fd9741e51f62d5083590666d1a703f2.jpg") no-repeat;
   background-size: cover;
-  margin-bottom: 100px; }
+  margin-bottom: 80px; }
 
 .eventsSection nav {
   width: 95%;
   margin-left: 2.5%;
-  height: 80px;
+  height: 64px;
   display: flex;
   justify-content: space-between;
   border-bottom: .01px solid #6f7070;
   align-items: center; }
 
 h1 {
-  padding-top: 15px;
+  padding-top: 12px;
   font-family: "Montserrat";
-  font-size: 24px;
+  font-size: 19.2px;
   color: white;
   letter-spacing: 2px; }
 
 .archiveBox {
   text-align: center;
-  font-size: 20px;
-  width: 280px;
-  height: 50px;
+  font-size: 16px;
+  width: 224px;
+  height: 40px;
   background-color: #313131; }
 
 .eventsYellowHighlight {
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: #fac03c; }
 
 .eventsYellowHighlight h2 {
   color: white;
   font-family: "Montserrat";
-  font-size: 24px;
+  font-size: 19.2px;
   text-align: center;
-  padding-top: 40px; }
+  padding-top: 32px; }
 
 .eventsImagesBox {
   width: 90%;
-  height: 700px;
+  height: 560px;
   margin-left: 5%;
   background-color: #f5f5f5; }
 
@@ -331,10 +331,10 @@ h1 {
   padding-left: 12%;
   padding-top: 5%;
   width: 90%;
-  height: 700px; }
+  height: 560px; }
 
 .eventsImages li {
-  margin: 5px;
+  margin: 4px;
   display: inline-block;
   width: 23%;
   height: 28%; }
@@ -393,18 +393,11 @@ h1 {
 .secondNavBar {
   z-index: 10;
   width: 100%;
-  height: 130px;
+  height: 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative; }
-
-.navMainLogo {
-  margin-left: 2%;
-  background: url("http://ourrescue.org/assets/img/logo.svg") no-repeat center;
-  /*background-size: cover;*/
-  width: 300px;
-  height: 150px; }
 
 .secondList {
   color: white;
@@ -412,10 +405,10 @@ h1 {
   display: flex; }
 
 .dropdown a {
-  margin-left: 30px;
-  margin-right: 20px;
-  font-size: 16px;
-  line-height: 20px;
+  margin-left: 24px;
+  margin-right: 16px;
+  font-size: 14px;
+  line-height: 16px;
   letter-spacing: 2px;
   text-decoration: none;
   color: white;
@@ -437,29 +430,29 @@ h1 {
   display: none;
   position: absolute;
   background-color: #58585a;
-  max-width: 280px;
+  max-width: 224px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  margin-top: 8.5px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin-top: 7px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   z-index: 1;
   text-align: center; }
 
 #one {
-  transform: translate(-42px); }
+  transform: translate(-33.6px); }
 
 #two {
-  transform: translate(-32px); }
+  transform: translate(-25.6px); }
 
 #three {
-  transform: translate(-40px); }
+  transform: translate(-32px); }
 
 #four {
   right: 0; }
 
 .dropdown-content a {
   color: white;
-  padding: 19px;
+  padding: 15.2px;
   text-decoration: none;
   display: block;
   font-family: "Montserrat";
@@ -470,9 +463,8 @@ h1 {
 
 .videoContainer {
   width: 100%;
-  height: 1000px;
+  height: 800px;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("../images/field3.jpg");
-  /*background: url("http://hillcountryconservancy.org/wp-content/uploads/2016/05/Scenery.jpg");*/
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -489,34 +481,34 @@ h1 {
   align-content: space-between; }
 
 .videoWords h2 {
-  font-size: 55px;
-  line-height: 65px;
+  font-size: 41px;
+  line-height: 50px;
   color: white;
   font-family: "Montserrat";
   font-weight: bold;
   text-shadow: 1px 1px 1px #000;
   padding-bottom: 13%;
-  padding-top: 40px;
+  padding-top: 32px;
   text-align: center;
-  letter-spacing: 5px; }
+  letter-spacing: 4px; }
 
 .videoWords button {
-  width: 90px;
-  height: 90px;
+  width: 72px;
+  height: 72px;
   background: #99999a;
   border-radius: 50%;
   text-decoration: none;
   border: none;
   box-sizing: border-box;
   outline: none;
-  margin-bottom: 50px; }
+  margin-bottom: 40px; }
 
 .homeVideoButton:active {
   background: white; }
 
 .fa-play {
   transform: scale(3, 3);
-  padding-left: 2px; }
+  padding-left: 1.8px; }
 
 .videoWords p {
   color: #fac03c;
@@ -530,31 +522,31 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 1650px;
+  height: 1320px;
   width: 100%; }
 
 .whiteWords {
   width: 100%;
-  height: 166px;
+  height: 132.8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
-  margin-top: 80px; }
+  margin-bottom: 24px;
+  margin-top: 64px; }
 
 .whiteWords h3 {
   font-family: "Montserrat";
-  font-size: 34px;
+  font-size: 24px;
   color: #222222;
-  line-height: 35px;
+  line-height: 25px;
   font-weight: bolder; }
 
 .whiteWords h2 {
   font-family: "Montserrat";
-  font-size: 22px;
+  font-size: 17px;
   color: #222222;
-  line-height: 44px;
+  line-height: 35.2px;
   font-weight: lighter; }
 
 .blackButtons {
@@ -562,18 +554,18 @@ h1 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 266px;
+  height: 212.8px;
   /*padding-bottom: 200px;*/ }
 
 .firstbButton {
-  padding: 80px; }
+  padding: 64px; }
 
 .secondbButton {
-  padding: 80px; }
+  padding: 64px; }
 
 .crButton {
-  width: 200px;
-  height: 200px;
+  width: 134.4px;
+  height: 134.4px;
   border-radius: 50%;
   background-color: #1e1f20;
   display: flex;
@@ -591,15 +583,15 @@ h1 {
 
 .imagerpButton {
   background: url("http://ourrescue.org/assets/img/planning-icon.svg") no-repeat;
-  width: 110px;
-  height: 110px; }
+  width: 88px;
+  height: 88px; }
 
 .imagerpButton:hover {
   transform: rotate(25deg); }
 
 .rpButton {
-  width: 200px;
-  height: 200px;
+  width: 134.4px;
+  height: 1344px;
   border-radius: 50%;
   background-color: #1e1f20;
   display: flex;
@@ -608,7 +600,7 @@ h1 {
 
 .blackButtons p {
   color: #fac03c;
-  font-size: 22px;
+  font-size: 17px;
   line-height: 34px;
   font-family: "Montserrat";
   /*font-weight: bold;*/
@@ -618,44 +610,44 @@ h1 {
   padding: 15px; }
 
 .rescueWords {
-  font-size: 34px;
-  line-height: 44px;
+  font-size: 24px;
+  line-height: 27.2px;
   font-family: "Montserrat";
   color: #222222;
   width: 100%;
-  height: 300px;
+  height: 3240px;
   text-align: center;
-  padding-top: 100px; }
+  padding-top: 80px; }
 
 .rescueWords p span {
   font-weight: bolder; }
 
 .gridImage {
-  margin-top: 70px;
+  margin-top: 56px;
   background: url("http://ourrescue.org/assets/img/homepage_map_grid.svg") no-repeat center;
   background-size: cover;
   width: 100%;
-  height: 700px;
-  margin-bottom: 100px;
+  height: 560px;
+  margin-bottom: 80px;
   z-index: 0;
   position: absolute; }
 
 .worldImage {
   position: absolute;
-  margin-top: 30px;
+  margin-top: 24px;
   /*margin-top: -60px;*/
   background: url("http://ourrescue.org/assets/img/homepage_map.png") no-repeat center;
   background-size: cover;
   width: 100%;
-  height: 700px;
-  margin-bottom: 100px;
+  height: 560px;
+  margin-bottom: 80px;
   z-index: 10;
   transition: 6s ease-in;
   /*transition: transform(0, 90px);*/ }
 
 .yellowOperations {
   width: 100%;
-  height: 870px;
+  height: 688px;
   background: url("../images/yellow.png") no-repeat;
   background-size: cover;
   background-attachment: fixed; }
@@ -664,18 +656,18 @@ h1 {
   font-family: "Montserrat";
   font-weight: bold;
   letter-spacing: 2px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 22px;
-  padding-bottom: 50px; }
+  padding-bottom: 40px; }
 
 .yellowOperations h3 {
   font-family: "Montserrat";
   font-weight: bold;
-  letter-spacing: 2px;
-  font-size: 30px;
-  line-height: 42px;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  letter-spacing: 1px;
+  font-size: 24px;
+  line-height: 34px;
+  padding-top: 432px;
+  padding-bottom: 40px;
   text-align: center; }
 
 .yellowOperations h1 {
@@ -683,7 +675,7 @@ h1 {
   text-align: center;
   font-weight: lighter;
   letter-spacing: 2px;
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 0; }
 
 .operationsList {
@@ -691,15 +683,15 @@ h1 {
   justify-content: space-around; }
 
 .firstOpList {
-  padding-left: 30px; }
+  padding-left: 24px; }
 
 .thirdOpList {
-  padding-right: 10px; }
+  padding-right: 8px; }
 
 /*---------------------------*/
 .aroundTheWorld {
   width: 100%;
-  height: 1100px;
+  height: 880px;
   color: white;
   display: flex;
   justify-content: center;
@@ -708,46 +700,46 @@ h1 {
 
 .slideshowTitle {
   width: 97%;
-  height: 90px;
+  height: 36.8px;
   background-color: #1e1f21;
   color: white;
   font-family: "Montserrat";
-  font-size: 26px;
-  line-height: 44px;
+  font-size: 16px;
+  letter-spacing: 2px;
   text-align: center;
-  padding-top: 24px;
-  margin-top: 80px; }
+  padding-top: 14.4px;
+  margin-top: 64px; }
 
 .homeImageBox {
   width: 97%;
-  height: 600px;
+  height: 480px;
   background: #f5f5f5;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   padding-left: 7%;
   padding-top: 2%; }
 
 .homeImageBox li {
-  margin: 5px;
+  margin: 4px;
   display: inline-block;
   width: 30%;
   height: 45%; }
 
 .homeImageBox h1 {
   font-family: "Montserrat";
-  font-size: 22px;
-  letter-spacing: 2px;
-  line-height: 25px;
-  text-align: center;
-  padding-top: 80px; }
-
-.homeImageBox p {
-  color: #fac03c;
-  font-family: "Montserrat";
   font-size: 20px;
   letter-spacing: 2px;
   line-height: 25px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 64px; }
+
+.homeImageBox p {
+  color: #fac03c;
+  font-family: "Montserrat";
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 16px;
   font-weight: lighter; }
 
 .homePicOne {
@@ -800,7 +792,7 @@ h1 {
 
 /*---------------------------*/
 .newsBox {
-  margin-top: 30px;
+  margin-top: 24px;
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -808,8 +800,8 @@ h1 {
   align-items: center; }
 
 .newsImages img {
-  width: 150px;
-  height: 110px;
+  width: 120px;
+  height: 88px;
   background-size: cover; }
 
 @media (min-width: 1640px) {
@@ -818,7 +810,7 @@ h1 {
 
 .topNavBar {
   width: 100%;
-  height: 90px;
+  height: 67px;
   background-color: #1e1f21;
   display: flex;
   float: right;
@@ -832,58 +824,58 @@ ul {
 
 .firstList {
   display: flex;
-  padding-bottom: 15px;
-  width: 700px; }
+  padding-bottom: 12px;
+  width: 560px; }
 
 .topNavWords {
   color: #8d8d8d;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Montserrat";
   font-weight: 'light';
   line-height: 20px;
   letter-spacing: 3px;
-  padding-left: 15px;
+  padding-left: 12px;
   z-index: 10; }
 
 .topNavWords:nth-child(-n+4) {
   border-right: 1px solid #6f7070;
-  padding-right: 15px; }
+  padding-right: 12px; }
 
 .topNavIcons {
   display: flex;
-  padding-right: 30px;
-  margin-left: 30px;
+  padding-right: 24px;
+  margin-left: 24px;
   z-index: 10; }
 
 li .fa {
   color: white;
-  padding-bottom: 13px;
-  padding-right: 30px;
-  transform: scale(1.6, 1.6); }
+  padding-bottom: 10.4px;
+  padding-right: 24px;
+  transform: scale(1, 1); }
 
 .redDonate {
-  width: 100px;
-  height: 45px;
+  width: 93px;
+  height: 42px;
   background-color: #f15645;
   color: white;
   font-family: "Montserrat";
   text-align: center;
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 14px;
   z-index: 10; }
 
 .redDonate p {
-  padding-top: 13px; }
+  padding-top: 10.4px; }
 
 .topFooterBox {
   width: 100%;
-  height: 600px;
+  height: 480px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 22px;
   letter-spacing: 3px;
@@ -891,18 +883,18 @@ li .fa {
 
 .subscribeBox {
   width: 100%;
-  height: 120px;
-  margin-bottom: 90px; }
+  height: 96px;
+  margin-bottom: 57.6px; }
 
 .subscribeBox p {
-  padding-bottom: 35px; }
+  padding-bottom: 28px; }
 
 .inputBox {
-  width: 462px;
-  height: 62px;
+  width: 369.6px;
+  height: 49.6px;
   background-color: #f5f5f5;
   font-size: 22px;
-  padding: 20px;
+  padding: 16px;
   letter-spacing: 3px;
   text-decoration: none;
   border: none;
@@ -912,8 +904,8 @@ li .fa {
 .subscribeButton {
   color: white;
   background-color: #fac03c;
-  width: 153px;
-  height: 62px;
+  width: 122.4px;
+  height: 49.6px;
   font-size: 16px;
   letter-spacing: 2px;
   font-weight: bolder;
@@ -923,22 +915,22 @@ li .fa {
   outline: none; }
 
 .followUs p {
-  margin-bottom: 30px; }
+  margin-bottom: 24px; }
 
 .followUs button {
   background-color: #fac03c;
   text-decoration: none;
   border: none;
-  width: 70px;
-  height: 70px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
   transition-duration: 2s; }
 
 .followUs button .fa {
   color: white;
-  transform: scale(2.5, 2.5); }
+  transform: scale(2, 2); }
 
 .followUs button:hover {
   transform: rotate(360deg);
@@ -946,22 +938,22 @@ li .fa {
 
 .bottomFooterBox {
   width: 100%;
-  height: 600px;
+  height: 480px;
   background-color: black; }
 
 .bottomTopWords {
   display: flex;
   justify-content: space-around;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-top: 32px;
+  padding-bottom: 24px;
   font-family: "Montserrat"; }
 
 .bottomTopWords ul {
-  width: 210px; }
+  width: 168px; }
 
 .bottomTopWords p {
   color: white;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   font-size: 12px;
   line-height: 13px;
   font-weight: bolder;
@@ -969,7 +961,7 @@ li .fa {
 
 .bottomTopWords li {
   color: #fac03c;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 2px; }
@@ -982,27 +974,27 @@ li .fa {
   font-size: 18px;
   line-height: 18px;
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   /*height: 100px;*/ }
 
 .faqList {
   display: flex;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
   justify-content: center; }
 
 .fL {
-  padding-left: 15px; }
+  padding-left: 12px; }
 
 .fL:nth-child(-n+2) {
   border-right: 2px solid #6f7070;
-  padding-right: 15px; }
+  padding-right: 12px; }
 
 .copyrightList {
   display: flex;
   justify-content: center; }
 
 .cL {
-  padding-left: 15px; }
+  padding-left: 12px; }
 
 .copyrightList .fa {
   color: white;
@@ -1010,7 +1002,7 @@ li .fa {
 
 .cL:nth-child(-n+2) {
   border-right: 2px solid #6f7070;
-  padding-right: 15px; }
+  padding-right: 12px; }
 
 .fadeInRightBig {
   animation-duration: 3s;
@@ -1059,31 +1051,31 @@ li .fa {
 .fightTopSection h2 {
   color: #fac03c;
   font-family: "Montserrat";
-  font-size: 35px;
-  width: 600px;
+  font-size: 28px;
+  width: 480px;
   line-height: 1.5;
   letter-spacing: 2px;
-  padding-bottom: 50px; }
+  padding-bottom: 40px; }
 
 .fightTopSection {
   background: url("../images/girl-child.png") no-repeat center;
   background-size: cover;
   width: 100%;
-  height: 800px; }
+  height: 640px; }
 
 .fightDonateSection {
   display: flex;
   width: 100%;
-  height: 800px;
+  height: 640px;
   align-items: center;
   justify-content: flex-start;
   font-family: "Montserrat";
-  padding-right: 80px;
-  padding-left: 150px; }
+  padding-right: 64px;
+  padding-left: 120px; }
 
 .fightDonateWords p {
-  width: 600px;
-  font-size: 28px;
+  width: 480px;
+  font-size: 22.4px;
   text-align: justify;
   line-height: 2;
   letter-spacing: 2px;
@@ -1094,27 +1086,27 @@ li .fa {
 
 .fightOptions {
   width: 100%;
-  height: 700px; }
+  height: 560px; }
 
 .fightYellowBar {
   width: 100%;
-  height: 60px;
+  height: 48px;
   background-color: #fac03c; }
 
 .fightYellowBar p {
   text-align: center;
   font-family: "Montserrat";
-  font-size: 22px;
+  font-size: 17.6px;
   font-weight: bolder;
-  padding-top: 20px; }
+  padding-top: 16px; }
 
 .fightOptionBoxes {
-  height: 800px;
-  margin-left: 40px;
-  margin-top: 20px; }
+  height: 640px;
+  margin-left: 32px;
+  margin-top: 16px; }
 
 .fightOptionBoxes li {
-  margin: 5px;
+  margin: 4px;
   background-color: #1e1f20;
   display: inline-block;
   width: 23.5%;
@@ -1124,11 +1116,11 @@ li .fa {
 .fightOptionBoxes p {
   color: #fac03c;
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 2px;
-  line-height: 25px;
+  line-height: 20px;
   text-align: center;
-  padding-top: 40px; }
+  padding-top: 32px; }
 
 .fightBoxContent {
   width: 100%;
@@ -1139,8 +1131,8 @@ li .fa {
   align-items: center; }
 
 .fightBoxContent img {
-  width: 100px;
-  height: 80px;
+  width: 80px;
+  height: 64px;
   transition: .3s; }
 
 .fightBoxContent img:hover {
@@ -1149,14 +1141,14 @@ li .fa {
 
 .fightImagesSection {
   width: 100%;
-  height: 500px;
+  height: 400px;
   display: flex; }
 
 .fightFirstImage {
   background: url("../images/fight-girl1.jpg") no-repeat center;
   background-size: cover;
   width: 33.3%;
-  height: 500px;
+  height: 400px;
   transition: 3s; }
 
 .fightFirstImage:hover {
@@ -1167,7 +1159,7 @@ li .fa {
   background: url("../images/fight-girl2.jpeg") no-repeat center;
   background-size: cover;
   width: 33.3%;
-  height: 500px;
+  height: 400px;
   position: relative;
   transition: 3s; }
 
@@ -1179,7 +1171,7 @@ li .fa {
   background: url("../images/fight-girl3.jpeg") no-repeat center;
   background-size: cover;
   width: 33.33%;
-  height: 500px;
+  height: 400px;
   position: relative;
   transition: 3s; }
 
@@ -1189,19 +1181,19 @@ li .fa {
 
 .fightGreyBar {
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: lightgrey; }
 
 .storiesTopSection {
   background: url("../images/smallChild.jpg") no-repeat center;
   background-size: cover;
   width: 100%;
-  height: 900px;
+  height: 720px;
   font-family: "Montserrat";
   letter-spacing: 2px; }
 
 .storiesMainWords {
-  padding-top: 200px;
+  padding-top: 160px;
   width: 100%;
   height: 80%;
   display: flex;
@@ -1211,19 +1203,19 @@ li .fa {
 
 .storiesTopSection h1 {
   color: #fac03c;
-  font-size: 36px;
+  font-size: 28.8px;
   font-weight: bolder; }
 
 .storiesTopSection p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: lighter;
   width: 40%;
   text-align: justify;
-  line-height: 36px; }
+  line-height: 28.8px; }
 
 .storiesTopSection h2 {
   font-weight: bolder;
-  font-size: 24px; }
+  font-size: 19.2px; }
 
 .storiesTopSection span {
   color: #fac03c; }
@@ -1231,20 +1223,20 @@ li .fa {
 .storiesPanorama {
   width: 100%;
   /*margin: 0 auto;*/
-  height: 635px;
+  height: 508px;
   overflow: auto;
   white-space: nowrap;
-  padding-top: 100px; }
+  padding-top: 80px; }
 
 .storiesSliderImage {
   display: inline-block;
   background: url("http://ourrescue.org/assets/img/stories_slide.jpg") no-repeat;
   height: 100%;
-  width: 4780px; }
+  width: 3824px; }
 
 .storiesWhaleWatch {
   width: 100%;
-  height: 1200px;
+  height: 960px;
   font-family: "Montserrat";
   letter-spacing: 2px;
   padding-left: 5%;
@@ -1254,8 +1246,8 @@ li .fa {
 .storiesWhaleWatch p {
   width: 90%;
   text-align: justify;
-  line-height: 30px;
-  font-size: 20px;
+  line-height: 24px;
+  font-size: 16px;
   color: #414141; }
 
 .whaleInfo {
@@ -1267,33 +1259,33 @@ li .fa {
 
 .whaleInfo h1 {
   color: #fac03c;
-  font-size: 46px;
+  font-size: 36.8px;
   font-weight: bolder; }
 
 .whaleDetails {
   display: flex; }
 
 .whaleDetails h2 {
-  width: 250px;
-  height: 50px;
+  width: 200px;
+  height: 40px;
   text-align: center;
   font-weight: bolder;
-  padding-top: 18px;
+  padding-top: 14.4px;
   color: #686867;
   background-color: #fac03c;
-  margin-right: 5px;
-  font-size: 20px; }
+  margin-right: 4px;
+  font-size: 16px; }
 
 .whaleDetails h3 {
-  width: 200px;
+  width: 160px;
   height: 50px;
-  margin-right: 5px;
+  margin-right: 4px;
   text-align: center;
   font-weight: bolder;
-  padding-top: 18px;
+  padding-top: 14.4px;
   color: #696968;
   background-color: #c1c1c0;
-  font-size: 18px; }
+  font-size: 14.4px; }
 
 .whaleImages {
   padding-top: 10%;
@@ -1318,11 +1310,11 @@ li .fa {
   position: relative; }
 
 .whaleImageButton {
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   background-color: #fac03c;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 4px;
   position: absolute;
   bottom: 0;
   right: 0; }
@@ -1335,18 +1327,18 @@ li .fa {
   background: url("https://i.vimeocdn.com/video/567000763.webp?mw=1300&mh=731") no-repeat;
   background-size: 100%;
   width: 80%;
-  height: 800px;
-  margin-bottom: 20px; }
+  height: 640px;
+  margin-bottom: 16px; }
 
 .whaleStory {
   width: 95%;
-  height: 1700px;
+  height: 1360px;
   padding-left: 5%;
   font-family: "Montserrat";
   letter-spacing: 2px;
-  line-height: 30px;
+  line-height: 24px;
   text-align: justify;
-  font-size: 20px;
+  font-size: 16px;
   color: #414141; }
 
 .whaleFullWords {
@@ -1364,17 +1356,17 @@ li .fa {
   width: 28%;
   height: 100%;
   background-color: #fac03c;
-  padding: 60px 60px; }
+  padding: 48px 48px; }
 
 .whaleBoxWords {
-  width: 300px;
+  width: 240px;
   margin: auto; }
 
 .whaleBoxWords strong {
   color: #ffffff;
   text-align: justify;
-  font-size: 30px;
-  line-height: 50px; }
+  font-size: 24px;
+  line-height: 40px; }
 
 .bounceInLeft {
   animation-duration: 3s;
@@ -1400,7 +1392,7 @@ li .fa {
   background: url("../images/children.jpg") no-repeat center;
   background-size: cover;
   width: 100%;
-  height: 800px;
+  height: 640px;
   font-family: "Montserrat";
   display: flex;
   align-items: center;
@@ -1413,45 +1405,45 @@ li .fa {
 
 #partnerImageOverlay {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-  padding: 20px 40px; }
+  padding: 16px 32px; }
 
 .partnershipsSection h1 {
   color: #fac03c;
-  font-size: 40px;
+  font-size: 32px;
   width: 100%;
   line-height: 1.5;
   letter-spacing: 2px;
-  padding-bottom: 40px; }
+  padding-bottom: 32px; }
 
 .partnershipsSection p {
   width: 100%;
-  font-size: 20px;
+  font-size: 16px;
   text-align: justify;
   line-height: 2;
   letter-spacing: 2px;
   color: white;
-  padding-bottom: 30px; }
+  padding-bottom: 24px; }
 
 .partnershipsSection h2 {
   color: white;
-  font-size: 24px;
+  font-size: 19.2px;
   width: 100%;
   line-height: 1.5;
   letter-spacing: 2px;
-  padding-bottom: 50px; }
+  padding-bottom: 40px; }
 
 .partnerBlackButtons {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 80%;
-  height: 500px;
+  height: 400px;
   margin-left: 10%; }
 
 .imageFirstButton {
   background: url("http://ourrescue.org/assets/img/rescue-icon.svg") no-repeat;
-  width: 79px;
-  height: 100px;
+  width: 63.2px;
+  height: 80px;
   background-size: cover; }
 
 .imageFirstButton:hover {
@@ -1459,31 +1451,31 @@ li .fa {
 
 .imageSecondButton {
   background: url("http://ourrescue.org/assets/img/planning-icon.svg") no-repeat;
-  width: 110px;
-  height: 110px; }
+  width: 88px;
+  height: 88px; }
 
 .imageSecondButton:hover {
   transform: rotate(25deg); }
 
 .imageThirdButton {
   background: url("http://ourrescue.org/assets/img/mindset-icon.svg") no-repeat;
-  width: 110px;
-  height: 110px; }
+  width: 88px;
+  height: 88px; }
 
 .imageThirdButton:hover {
   transform: rotate(25deg); }
 
 .imageFourthButton {
   background: url("http://ourrescue.org/assets/img/organizations-icon.svg") no-repeat;
-  width: 150px;
-  height: 80px; }
+  width: 120px;
+  height: 64px; }
 
 .imageFourthButton:hover {
   transform: rotate(25deg); }
 
 .partnerButtons {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   background-color: #1e1f20;
   display: flex;
@@ -1492,12 +1484,12 @@ li .fa {
 
 .partnerBlackButtons p {
   color: #fac03c;
-  font-size: 22px;
-  line-height: 34px;
+  font-size: 17.6px;
+  line-height: 25.6px;
   font-family: "Montserrat";
   /*font-weight: bold;*/
-  width: 200px;
-  height: 43px;
+  width: 160px;
+  height: 34.4px;
   text-align: center;
-  padding: 15px; }
+  padding: 12px; }
 

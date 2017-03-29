@@ -6,27 +6,27 @@ angular.module('app', ['ui.router']).config(function ($stateProvider, $urlRouter
 
     $stateProvider.state('home', {
         url: '/',
-        templateUrl: '../views/home.html',
+        templateUrl: './views/home.html',
         controller: 'mainCtrl'
     }).state('aboutus', {
         url: '/aboutus',
-        templateUrl: '../views/aboutUs.html',
+        templateUrl: './views/aboutUs.html',
         controller: 'mainCtrl'
     }).state('jointhefight', {
         url: '/jointhefight',
-        templateUrl: '../views/joinTheFight.html',
+        templateUrl: './views/joinTheFight.html',
         controller: 'mainCtrl'
     }).state('ourstories', {
         url: '/ourstories',
-        templateUrl: '../views/ourStories.html',
+        templateUrl: './views/ourStories.html',
         controller: 'mainCtrl'
     }).state('partnerships', {
         url: '/partnerships',
-        templateUrl: '../views/partnerships.html',
+        templateUrl: './views/partnerships.html',
         controller: 'mainCtrl'
     }).state('eventsmedia', {
         url: '/eventsmedia',
-        templateUrl: '../views/eventsMedia.html',
+        templateUrl: './views/eventsMedia.html',
         controller: 'mainCtrl'
     });
 });
@@ -35,7 +35,7 @@ angular.module('app', ['ui.router']).config(function ($stateProvider, $urlRouter
 angular.module('app').directive('animateDir', function () {
     return {
         restrict: 'E',
-        templateUrl: '../views/video.html'
+        templateUrl: './views/video.html'
     };
 });
 'use strict';
@@ -43,7 +43,7 @@ angular.module('app').directive('animateDir', function () {
 angular.module('app').directive('navbar', function () {
     return {
         restrict: 'E',
-        templateUrl: '../views/navbar.html'
+        templateUrl: './views/navbar.html'
     };
 });
 'use strict';
