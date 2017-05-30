@@ -1009,19 +1009,20 @@ li .fa {
   padding-right: 12px; }
 
 .fixedBox {
-  width: 350px;
-  height: 120px;
+  width: 260px;
+  height: 145px;
   background: rgba(0, 0, 0, 0.8);
   position: fixed;
   bottom: 0;
   right: 0;
-  z-index: 100; }
+  z-index: 100;
+  box-shadow: 6px 6px 17px 9px rgba(0, 0, 0, 0.4); }
 
 .fixedBox p {
   color: #fac03c;
   font-family: "Montserrat";
-  font-size: 20px;
-  padding: 20px 20px;
+  font-size: 16px;
+  padding: 27px 27px;
   text-decoration: none;
   text-align: justify;
   line-height: 1.5;
@@ -1030,7 +1031,7 @@ li .fa {
 .fixedBox a {
   color: #fac03c;
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   line-height: 1.5;
   letter-spacing: 1px; }
